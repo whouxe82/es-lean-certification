@@ -1,0 +1,26 @@
+{
+  "toolchain": "Lean 4.19.0 / Mathlib v4.19.0",
+  "implications": "Both conditional implications are kernel checked",
+  "structure": {
+    "kind": "checked",
+    "body": "Positive source and endpoint triples\nB1 integer return ⇔ δt divides k\nGeneral character transfer: pending",
+    "badge": "Exact algebra certified"
+  },
+  "descent": {
+    "kind": "checked",
+    "badge": "Restriction certified"
+  },
+  "matching": {
+    "kind": "checked",
+    "body": "All orientations; triples up to permutation\nAt most one neighbor; no self-loops\nIntegral iteration cannot branch",
+    "badge": "Global matching certified"
+  },
+  "forcing": {
+    "kind": "checked",
+    "badge": "Local theorem certified"
+  },
+  "foundation_kind": "checked",
+  "matching_report": "Full all-orientation matching on positive ES triples up to permutation: every vertex has at most one neighbor, with no self-loops. Arbitrary Type II normalization is derived internally.",
+  "matching_detail": "The full graph statement is kernel checked: for prime p=4k+1, every positive ES vertex has at most one neighbor under all integral orientations of the bridge and inverse traversals. No normal-form or existence premise is assumed. The formal graph has no self-loops and retains denominator multiplicity.",
+  "audit_summary": "Final clean rebuild and audit passed (exit 0): all 12 ES source modules, 310 theorem constants including generated proof helpers, and 75 other safe declarations. Only propext, Classical.choice, and Quot.sound occur in proof dependencies. Source hashes were stable; 18 unsafe compiler stubs were separately inventoried and enter no audited proof dependency."
+}
