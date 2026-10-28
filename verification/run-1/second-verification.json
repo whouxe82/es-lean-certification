@@ -1,0 +1,108 @@
+{
+  "record_kind": "User-controlled second verification; evidence review, not a new execution",
+  "status": "passed",
+  "verification_date": "2026-10-28",
+  "repository": "whouxe82/es-lean-certification",
+  "run_url": "https://github.com/whouxe82/es-lean-certification/actions/runs/40788446292",
+  "run_id": 40788446292,
+  "run_number": 1,
+  "run_attempt": 1,
+  "commit": "a92f65600f74847311746acf484d7af7746cde6b",
+  "workflow": ".github/workflows/verify-es-lean.yml",
+  "actor": "whouxe82",
+  "run_started_utc": "2026-10-28T23:35:42Z",
+  "run_started_eastern": "2026-10-28T19:35:42-04:00",
+  "runner": {
+    "label": "ubuntu-24.04",
+    "os": "Ubuntu 24.04.5 LTS",
+    "hosting": "GitHub-hosted Actions runner"
+  },
+  "lean": {
+    "version": "4.19.0",
+    "commit": "6caaee842e94"
+  },
+  "mathlib": {
+    "version": "v4.19.0",
+    "commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "dependency_artifacts": "Fetched from pinned Mathlib cache; not a Mathlib source rebuild"
+  },
+  "verification_summary_extracted_from_job_log": {
+    "command": "bash scripts/verify.sh",
+    "started_utc": "2026-10-28T23:37:01.444078+00:00",
+    "completed_utc": "2026-10-28T23:38:58.520601+00:00",
+    "elapsed_seconds": 117.077,
+    "exit_code": 0,
+    "source_files_stable_during_verification": true,
+    "theorem_constants_audited_including_generated_helpers": 310,
+    "other_safe_declarations_audited": 75,
+    "unsafe_compiler_stubs_inventoried": 18,
+    "theorem_constants_by_module": {
+      "ES.Basic": 16,
+      "ES.Bridges": 48,
+      "ES.Descent": 53,
+      "ES.EdgeClassification": 9,
+      "ES.Families": 41,
+      "ES.Forcing": 55,
+      "ES.Literature": 6,
+      "ES.Matching": 17,
+      "ES.MatchingGraph": 40,
+      "ES.Normalization": 4,
+      "ES.Pivot": 5,
+      "ES.PriorOffsetCore": 16
+    },
+    "audited_modules": [
+      "ES",
+      "ES.Basic",
+      "ES.Bridges",
+      "ES.Descent",
+      "ES.EdgeClassification",
+      "ES.Families",
+      "ES.Forcing",
+      "ES.Literature",
+      "ES.Matching",
+      "ES.MatchingGraph",
+      "ES.Normalization",
+      "ES.Pivot",
+      "ES.PriorOffsetCore"
+    ],
+    "missing_modules": [],
+    "allowed_transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "provenance_limit": "Execution and content receipt only; not cryptographic model, labor, or independent-review attestation."
+  },
+  "compiled_input_count": 22,
+  "compiled_input_comparison": {
+    "result": "exact equality",
+    "basis": "Successful workflow assertion compares both compiled_input_sha256 dictionaries; source tree separately compared to delivered receipt"
+  },
+  "four_pass_conditions": {
+    "clean_build": "passed",
+    "axiom_audit": "passed",
+    "source_audit": "passed",
+    "compiled_input_hash_comparison": "passed"
+  },
+  "artifact": {
+    "name": "es-lean-receipts",
+    "id": 12861010630,
+    "size_bytes": 109806,
+    "sha256": "199dd16acbcf689f7d5055189f317a6b1d31deb367e4ee441e0638d70a0af105",
+    "url": "https://github.com/whouxe82/es-lean-certification/actions/runs/40788446292/artifacts/12861010630",
+    "expires_at": "2027-01-26T23:35:42Z",
+    "zip_bytes_inspected_in_this_review": false
+  },
+  "review_evidence": [
+    "Three user-supplied screenshot PDFs",
+    "GitHub run and job API records",
+    "Pinned workflow source",
+    "Full decoded job log retained alongside this record",
+    "GitHub artifact metadata",
+    "Original delivered package and verification-receipt.json"
+  ],
+  "scope": "Independent execution under user control on a separate hosted runner, not an independently authored proof or a local Windows/macOS/WSL run.",
+  "mathematical_status": "Existing supporting results reproduced. H_D, H_N, Q(p) uniformly, and universal Erdos-Straus remain unproved.",
+  "receipt_boundary": "This record extracts the summary printed by the driver. It is not a replacement for the full run-generated verification-receipt.json. Artifact ZIP availability and digest are verified from GitHub metadata and upload log, not from a local rehash of that ZIP."
+}
+

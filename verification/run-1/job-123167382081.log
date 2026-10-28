@@ -1,0 +1,309 @@
+﻿2026-10-28T23:35:46.4748755Z Current runner version: '2.338.0'
+2026-10-28T23:35:46.4772192Z ##[group]Runner Image Provisioner
+2026-10-28T23:35:46.4773004Z Hosted Compute Agent
+2026-10-28T23:35:46.4773778Z Version: 20261021.618
+2026-10-28T23:35:46.4774365Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-10-28T23:35:46.4774999Z Build Date: 2026-10-21T00:45:21Z
+2026-10-28T23:35:46.4775557Z Worker ID: {aefdce9e-6f5a-47af-949b-29f6438eb434}
+2026-10-28T23:35:46.4776247Z Region: centralus
+2026-10-28T23:35:46.4776734Z Cloud: Azure
+2026-10-28T23:35:46.4777249Z ##[endgroup]
+2026-10-28T23:35:46.4778739Z ##[group]Operating System
+2026-10-28T23:35:46.4779266Z Ubuntu
+2026-10-28T23:35:46.4779924Z 24.04.5
+2026-10-28T23:35:46.4780520Z LTS
+2026-10-28T23:35:46.4781211Z ##[endgroup]
+2026-10-28T23:35:46.4781961Z ##[group]Runner Image
+2026-10-28T23:35:46.4782735Z Image: ubuntu-24.04
+2026-10-28T23:35:46.4783732Z Version: 20261025.353.1
+2026-10-28T23:35:46.4785209Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-28T23:35:46.4787207Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-10-28T23:35:46.4788446Z ##[endgroup]
+2026-10-28T23:35:46.4790570Z ##[group]GITHUB_TOKEN Permissions
+2026-10-28T23:35:46.4793406Z Contents: read
+2026-10-28T23:35:46.4794315Z Metadata: read
+2026-10-28T23:35:46.4794996Z Packages: read
+2026-10-28T23:35:46.4795851Z ##[endgroup]
+2026-10-28T23:35:46.4798162Z Secret source: Actions
+2026-10-28T23:35:46.4799464Z Cache mode: write
+2026-10-28T23:35:46.4800652Z Prepare workflow directory
+2026-10-28T23:35:46.5110294Z Prepare all required actions
+2026-10-28T23:35:46.5150991Z Getting action download info
+2026-10-28T23:35:46.7575852Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-28T23:35:46.8332867Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-28T23:35:47.3162906Z Complete job name: verify
+2026-10-28T23:35:47.3891797Z ##[group]Run actions/checkout@v4
+2026-10-28T23:35:47.3892564Z with:
+2026-10-28T23:35:47.3892984Z   repository: whouxe82/es-lean-certification
+2026-10-28T23:35:47.3897114Z   token: ***
+2026-10-28T23:35:47.3897479Z   ssh-strict: true
+2026-10-28T23:35:47.3897852Z   ssh-user: git
+2026-10-28T23:35:47.3898221Z   persist-credentials: true
+2026-10-28T23:35:47.3898647Z   clean: true
+2026-10-28T23:35:47.3899023Z   sparse-checkout-cone-mode: true
+2026-10-28T23:35:47.3899481Z   fetch-depth: 1
+2026-10-28T23:35:47.3899847Z   fetch-tags: false
+2026-10-28T23:35:47.3900233Z   show-progress: true
+2026-10-28T23:35:47.3900605Z   lfs: false
+2026-10-28T23:35:47.3900957Z   submodules: false
+2026-10-28T23:35:47.3901342Z   set-safe-directory: true
+2026-10-28T23:35:47.3901810Z   allow-unsafe-pr-checkout: false
+2026-10-28T23:35:47.3902430Z ##[endgroup]
+2026-10-28T23:35:48.3016831Z Syncing repository: whouxe82/es-lean-certification
+2026-10-28T23:35:48.3019832Z ##[group]Getting Git version info
+2026-10-28T23:35:48.3021396Z Working directory is '/home/runner/work/es-lean-certification/es-lean-certification'
+2026-10-28T23:35:48.3023494Z [command]/usr/bin/git version
+2026-10-28T23:35:48.3046897Z git version 2.56.0
+2026-10-28T23:35:48.3063657Z ##[endgroup]
+2026-10-28T23:35:48.3076495Z Temporarily overriding HOME='/home/runner/work/_temp/5eba98ab-5103-4e6c-917a-7a6f0d732c93' before making global git config changes
+2026-10-28T23:35:48.3080246Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-28T23:35:48.3083978Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/es-lean-certification/es-lean-certification
+2026-10-28T23:35:48.3126182Z Deleting the contents of '/home/runner/work/es-lean-certification/es-lean-certification'
+2026-10-28T23:35:48.3129952Z ##[group]Initializing the repository
+2026-10-28T23:35:48.3133255Z [command]/usr/bin/git init /home/runner/work/es-lean-certification/es-lean-certification
+2026-10-28T23:35:48.3217901Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-28T23:35:48.3221332Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-28T23:35:48.3224338Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-28T23:35:48.3226970Z hint: call:
+2026-10-28T23:35:48.3228519Z hint:
+2026-10-28T23:35:48.3230392Z hint: 	git config --global init.defaultBranch <name>
+2026-10-28T23:35:48.3232739Z hint:
+2026-10-28T23:35:48.3234981Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-28T23:35:48.3238116Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-28T23:35:48.3240636Z hint:
+2026-10-28T23:35:48.3242145Z hint: 	git branch -m <name>
+2026-10-28T23:35:48.3244368Z hint:
+2026-10-28T23:35:48.3246596Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-28T23:35:48.3250886Z Initialized empty Git repository in /home/runner/work/es-lean-certification/es-lean-certification/.git/
+2026-10-28T23:35:48.3257208Z [command]/usr/bin/git remote add origin https://github.com/whouxe82/es-lean-certification
+2026-10-28T23:35:48.3281325Z ##[endgroup]
+2026-10-28T23:35:48.3282857Z ##[group]Disabling automatic garbage collection
+2026-10-28T23:35:48.3284762Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-28T23:35:48.3316566Z ##[endgroup]
+2026-10-28T23:35:48.3318081Z ##[group]Setting up auth
+2026-10-28T23:35:48.3322016Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-28T23:35:48.3358527Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-28T23:35:48.3671826Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-28T23:35:48.3712117Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-28T23:35:48.3928644Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-28T23:35:48.3969483Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-28T23:35:48.4178026Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-28T23:35:48.4221698Z ##[endgroup]
+2026-10-28T23:35:48.4230977Z ##[group]Fetching the repository
+2026-10-28T23:35:48.4234054Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a92f65600f74847311746acf484d7af7746cde6b:refs/remotes/origin/main
+2026-10-28T23:35:48.8454523Z From https://github.com/whouxe82/es-lean-certification
+2026-10-28T23:35:48.8456139Z  * [new ref]         a92f65600f74847311746acf484d7af7746cde6b -> origin/main
+2026-10-28T23:35:48.8459570Z ##[endgroup]
+2026-10-28T23:35:48.8460949Z ##[group]Determining the checkout info
+2026-10-28T23:35:48.8462949Z ##[endgroup]
+2026-10-28T23:35:48.8465809Z [command]/usr/bin/git sparse-checkout disable
+2026-10-28T23:35:48.8518154Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-28T23:35:48.8584674Z ##[group]Checking out the ref
+2026-10-28T23:35:48.8588749Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-28T23:35:48.8867428Z Switched to a new branch 'main'
+2026-10-28T23:35:48.8868023Z branch 'main' set up to track 'origin/main'.
+2026-10-28T23:35:48.8871509Z ##[endgroup]
+2026-10-28T23:35:48.8921516Z [command]/usr/bin/git log -1 --format=%H
+2026-10-28T23:35:48.8951218Z a92f65600f74847311746acf484d7af7746cde6b
+2026-10-28T23:35:48.9155002Z ##[group]Run curl https://elan.lean-lang.org/elan-init.sh -sSf | sh -s -- -y --default-toolchain none
+2026-10-28T23:35:48.9155726Z [36;1mcurl https://elan.lean-lang.org/elan-init.sh -sSf | sh -s -- -y --default-toolchain none[0m
+2026-10-28T23:35:48.9156366Z [36;1mecho "$HOME/.elan/bin" >> "$GITHUB_PATH"[0m
+2026-10-28T23:35:48.9156736Z [36;1m"$HOME/.elan/bin/elan" toolchain install leanprover/lean4:v4.19.0[0m
+2026-10-28T23:35:48.9178058Z shell: /usr/bin/bash -e {0}
+2026-10-28T23:35:48.9178332Z ##[endgroup]
+2026-10-28T23:35:49.0344303Z info: downloading installer
+2026-10-28T23:35:50.3251062Z info: downloading https://releases.lean-lang.org/lean4/v4.19.0/lean-4.19.0-linux.tar.zst
+2026-10-28T23:35:54.5454910Z info: installing /home/runner/.elan/toolchains/leanprover--lean4---v4.19.0
+2026-10-28T23:35:57.6972518Z 
+2026-10-28T23:35:57.7266045Z leanprover/lean4:v4.19.0 installed - Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+2026-10-28T23:35:57.7266726Z 
+2026-10-28T23:35:57.8386588Z ##[group]Run lean --version
+2026-10-28T23:35:57.8386974Z [36;1mlean --version[0m
+2026-10-28T23:35:57.8387227Z [36;1mlake --version[0m
+2026-10-28T23:35:57.8412833Z shell: /usr/bin/bash -e {0}
+2026-10-28T23:35:57.8413093Z ##[endgroup]
+2026-10-28T23:35:58.2832981Z Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+2026-10-28T23:35:58.3157217Z Lake version 5.0.0-6caaee8 (Lean version 4.19.0)
+2026-10-28T23:35:58.3212113Z ##[group]Run lake exe cache get
+2026-10-28T23:35:58.3212371Z [36;1mlake exe cache get[0m
+2026-10-28T23:35:58.3229976Z shell: /usr/bin/bash -e {0}
+2026-10-28T23:35:58.3230199Z ##[endgroup]
+2026-10-28T23:36:23.4302650Z info: mathlib: cloning https://github.com/leanprover-community/mathlib4.git
+2026-10-28T23:36:23.4303324Z info: mathlib: checking out revision 'c44e0c8ee63ca166450922a373c7409c5d26b00b'
+2026-10-28T23:36:24.5297797Z info: plausible: cloning https://github.com/leanprover-community/plausible
+2026-10-28T23:36:24.5298313Z info: plausible: checking out revision '77e08eddc486491d7b9e470926b3dbe50319451a'
+2026-10-28T23:36:25.1842479Z info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient
+2026-10-28T23:36:25.1843042Z info: LeanSearchClient: checking out revision '25078369972d295301f5a1e53c3e5850cf6d9d4c'
+2026-10-28T23:36:25.5516656Z info: importGraph: cloning https://github.com/leanprover-community/import-graph
+2026-10-28T23:36:25.5517549Z info: importGraph: checking out revision 'e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b'
+2026-10-28T23:36:26.2572392Z info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4
+2026-10-28T23:36:26.2573117Z info: proofwidgets: checking out revision 'c4919189477c3221e6a204008998b0d724f49904'
+2026-10-28T23:36:27.3979459Z info: aesop: cloning https://github.com/leanprover-community/aesop
+2026-10-28T23:36:27.3980062Z info: aesop: checking out revision '5d50b08dedd7d69b3d9b3176e0d58a23af228884'
+2026-10-28T23:36:28.2511220Z info: Qq: cloning https://github.com/leanprover-community/quote4
+2026-10-28T23:36:28.2511708Z info: Qq: checking out revision 'fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02'
+2026-10-28T23:36:30.5961896Z info: batteries: cloning https://github.com/leanprover-community/batteries
+2026-10-28T23:36:30.5962466Z info: batteries: checking out revision 'f5d04a9c4973d401c8c92500711518f7c656f034'
+2026-10-28T23:36:30.9430485Z info: Cli: cloning https://github.com/leanprover/lean4-cli
+2026-10-28T23:36:30.9431077Z info: Cli: checking out revision '02dbd02bc00ec4916e99b04b2245b30200e200d0'
+2026-10-28T23:36:31.1466125Z ✔ [2/12] Built Cache.Lean
+2026-10-28T23:36:31.2467775Z ✔ [3/12] Built Cache.Lean:c.o
+2026-10-28T23:36:32.2467907Z ✔ [4/12] Built Cache.IO
+2026-10-28T23:36:32.9495301Z ✔ [5/12] Built Cache.Hashing
+2026-10-28T23:36:34.0524659Z ✔ [6/12] Built Cache.Requests
+2026-10-28T23:36:34.0550837Z ✔ [7/12] Built Cache.Hashing:c.o
+2026-10-28T23:36:34.8520395Z ✔ [8/12] Built Cache.Main
+2026-10-28T23:36:34.8521186Z ✔ [9/12] Built Cache.IO:c.o
+2026-10-28T23:36:35.0523432Z ✔ [10/12] Built Cache.Requests:c.o
+2026-10-28T23:36:35.4527882Z ✔ [11/12] Built Cache.Main:c.o
+2026-10-28T23:36:36.0539773Z ✔ [12/12] Built cache
+2026-10-28T23:36:37.8463532Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2026-10-28T23:36:37.8464276Z                                  Dload  Upload   Total   Spent    Left  Speed
+2026-10-28T23:36:37.8464471Z 
+2026-10-28T23:36:37.8464633Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2026-10-28T23:36:37.8464919Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2026-10-28T23:36:37.8465100Z 
+2026-10-28T23:36:37.8465244Z 100 1075k  100 1075k    0     0  4333k      0 --:--:-- --:--:-- --:--:-- 4333k
+2026-10-28T23:36:37.8465557Z 
+2026-10-28T23:36:37.8749709Z installing leantar 0.1.15
+2026-10-28T23:36:39.0494244Z Attempting to download 6641 file(s)
+2026-10-28T23:36:39.8199090Z 
+2026-10-28T23:36:39.9248091Z Downloaded: 1 file(s) [attempted 1/6641 = 0%]
+2026-10-28T23:36:40.0260064Z Downloaded: 78 file(s) [attempted 78/6641 = 1%]
+2026-10-28T23:36:40.1291975Z Downloaded: 547 file(s) [attempted 547/6641 = 8%]
+2026-10-28T23:36:40.2295618Z Downloaded: 1014 file(s) [attempted 1014/6641 = 15%]
+2026-10-28T23:36:40.3288493Z Downloaded: 1501 file(s) [attempted 1501/6641 = 22%]
+2026-10-28T23:36:40.4285202Z Downloaded: 1958 file(s) [attempted 1958/6641 = 29%]
+2026-10-28T23:36:40.5285720Z Downloaded: 2397 file(s) [attempted 2397/6641 = 36%]
+2026-10-28T23:36:40.6297445Z Downloaded: 2823 file(s) [attempted 2823/6641 = 42%]
+2026-10-28T23:36:40.7344746Z Downloaded: 3277 file(s) [attempted 3277/6641 = 49%]
+2026-10-28T23:36:40.8337031Z Downloaded: 3706 file(s) [attempted 3706/6641 = 55%]
+2026-10-28T23:36:40.9335079Z Downloaded: 4164 file(s) [attempted 4164/6641 = 62%]
+2026-10-28T23:36:41.0335709Z Downloaded: 4593 file(s) [attempted 4593/6641 = 69%]
+2026-10-28T23:36:41.1335023Z Downloaded: 4970 file(s) [attempted 4970/6641 = 74%]
+2026-10-28T23:36:41.2341326Z Downloaded: 5380 file(s) [attempted 5380/6641 = 81%]
+2026-10-28T23:36:41.3335849Z Downloaded: 5809 file(s) [attempted 5809/6641 = 87%]
+2026-10-28T23:36:41.4454298Z Downloaded: 6222 file(s) [attempted 6222/6641 = 93%]
+2026-10-28T23:36:41.5089120Z Downloaded: 6637 file(s) [attempted 6637/6641 = 99%]
+2026-10-28T23:36:41.5089875Z Downloaded: 6641 file(s) [attempted 6641/6641 = 100%] (100% success)
+2026-10-28T23:37:01.2285848Z Decompressing 6641 file(s)
+2026-10-28T23:37:01.2286153Z Unpacked in 19694 ms
+2026-10-28T23:37:01.2286344Z Completed successfully!
+2026-10-28T23:37:01.2646405Z ##[group]Run cp -r logs logs_gpt_original
+2026-10-28T23:37:01.2646701Z [36;1mcp -r logs logs_gpt_original[0m
+2026-10-28T23:37:01.2663828Z shell: /usr/bin/bash -e {0}
+2026-10-28T23:37:01.2664043Z ##[endgroup]
+2026-10-28T23:37:01.3826766Z ##[group]Run python3 ../scripts/record_verification.py
+2026-10-28T23:37:01.3827090Z [36;1mpython3 ../scripts/record_verification.py[0m
+2026-10-28T23:37:01.3844172Z shell: /usr/bin/bash -e {0}
+2026-10-28T23:37:01.3844378Z ##[endgroup]
+2026-10-28T23:38:58.5211970Z {
+2026-10-28T23:38:58.5212300Z   "command": "bash scripts/verify.sh",
+2026-10-28T23:38:58.5212626Z   "started_utc": "2026-10-28T23:37:01.444078+00:00",
+2026-10-28T23:38:58.5212991Z   "completed_utc": "2026-10-28T23:38:58.520601+00:00",
+2026-10-28T23:38:58.5213502Z   "elapsed_seconds": 117.077,
+2026-10-28T23:38:58.5213780Z   "exit_code": 0,
+2026-10-28T23:38:58.5214069Z   "source_files_stable_during_verification": true,
+2026-10-28T23:38:58.5214494Z   "theorem_constants_audited_including_generated_helpers": 310,
+2026-10-28T23:38:58.5214918Z   "other_safe_declarations_audited": 75,
+2026-10-28T23:38:58.5215260Z   "unsafe_compiler_stubs_inventoried": 18,
+2026-10-28T23:38:58.5215600Z   "theorem_constants_by_module": {
+2026-10-28T23:38:58.5215984Z     "ES.Basic": 16,
+2026-10-28T23:38:58.5216234Z     "ES.Bridges": 48,
+2026-10-28T23:38:58.5216485Z     "ES.Descent": 53,
+2026-10-28T23:38:58.5216748Z     "ES.EdgeClassification": 9,
+2026-10-28T23:38:58.5217047Z     "ES.Families": 41,
+2026-10-28T23:38:58.5217311Z     "ES.Forcing": 55,
+2026-10-28T23:38:58.5217554Z     "ES.Literature": 6,
+2026-10-28T23:38:58.5217815Z     "ES.Matching": 17,
+2026-10-28T23:38:58.5218073Z     "ES.MatchingGraph": 40,
+2026-10-28T23:38:58.5218633Z     "ES.Normalization": 4,
+2026-10-28T23:38:58.5218900Z     "ES.Pivot": 5,
+2026-10-28T23:38:58.5219164Z     "ES.PriorOffsetCore": 16
+2026-10-28T23:38:58.5219441Z   },
+2026-10-28T23:38:58.5219659Z   "audited_modules": [
+2026-10-28T23:38:58.5219905Z     "ES",
+2026-10-28T23:38:58.5220183Z     "ES.Basic",
+2026-10-28T23:38:58.5220389Z     "ES.Bridges",
+2026-10-28T23:38:58.5220593Z     "ES.Descent",
+2026-10-28T23:38:58.5220810Z     "ES.EdgeClassification",
+2026-10-28T23:38:58.5221050Z     "ES.Families",
+2026-10-28T23:38:58.5221277Z     "ES.Forcing",
+2026-10-28T23:38:58.5221505Z     "ES.Literature",
+2026-10-28T23:38:58.5221724Z     "ES.Matching",
+2026-10-28T23:38:58.5221943Z     "ES.MatchingGraph",
+2026-10-28T23:38:58.5222168Z     "ES.Normalization",
+2026-10-28T23:38:58.5222392Z     "ES.Pivot",
+2026-10-28T23:38:58.5222611Z     "ES.PriorOffsetCore"
+2026-10-28T23:38:58.5222845Z   ],
+2026-10-28T23:38:58.5223049Z   "missing_modules": [],
+2026-10-28T23:38:58.5223476Z   "allowed_transitive_axioms": [
+2026-10-28T23:38:58.5223757Z     "propext",
+2026-10-28T23:38:58.5223974Z     "Classical.choice",
+2026-10-28T23:38:58.5224193Z     "Quot.sound"
+2026-10-28T23:38:58.5224413Z   ],
+2026-10-28T23:38:58.5224963Z   "provenance_limit": "Execution and content receipt only; not cryptographic model, labor, or independent-review attestation."
+2026-10-28T23:38:58.5225553Z }
+2026-10-28T23:38:58.5299920Z ##[group]Run set -e
+2026-10-28T23:38:58.5300156Z [36;1mset -e[0m
+2026-10-28T23:38:58.5300406Z [36;1mgrep -q "Build completed successfully." logs/clean-build.log[0m
+2026-10-28T23:38:58.5300726Z [36;1mgrep -q "AUDIT_TOTAL|310" logs/axioms-all.log[0m
+2026-10-28T23:38:58.5301009Z [36;1mgrep -q "AUDIT_SAFE_TOTAL|75" logs/axioms-all.log[0m
+2026-10-28T23:38:58.5301316Z [36;1mgrep -q "AUDIT_COMPILER_STUB_TOTAL|18" logs/axioms-all.log[0m
+2026-10-28T23:38:58.5301609Z [36;1m! grep -q "^error" logs/axioms-all.log[0m
+2026-10-28T23:38:58.5301849Z [36;1mpython3 - <<'EOF'[0m
+2026-10-28T23:38:58.5302040Z [36;1mimport json[0m
+2026-10-28T23:38:58.5302321Z [36;1massert json.load(open("logs/source-audit.json"))["passed"] is True[0m
+2026-10-28T23:38:58.5302678Z [36;1mnew = json.load(open("logs/verification-receipt.json"))[0m
+2026-10-28T23:38:58.5303034Z [36;1mold = json.load(open("logs_gpt_original/verification-receipt.json"))[0m
+2026-10-28T23:38:58.5303766Z [36;1massert new["exit_code"] == 0, "verification exit code was not 0"[0m
+2026-10-28T23:38:58.5304231Z [36;1massert new["compiled_input_sha256"] == old["compiled_input_sha256"], "source hashes differ from GPT's receipt"[0m
+2026-10-28T23:38:58.5304713Z [36;1mprint("PASS: build, audits and 22 source hashes all match GPT's receipt")[0m
+2026-10-28T23:38:58.5305013Z [36;1mEOF[0m
+2026-10-28T23:38:58.5322232Z shell: /usr/bin/bash -e {0}
+2026-10-28T23:38:58.5322439Z ##[endgroup]
+2026-10-28T23:38:58.5566024Z PASS: build, audits and 22 source hashes all match GPT's receipt
+2026-10-28T23:38:58.5644266Z ##[group]Run actions/upload-artifact@v4
+2026-10-28T23:38:58.5644499Z with:
+2026-10-28T23:38:58.5644687Z   name: es-lean-receipts
+2026-10-28T23:38:58.5644923Z   path: logs/
+logs_gpt_original/
+
+2026-10-28T23:38:58.5645140Z   if-no-files-found: warn
+2026-10-28T23:38:58.5645328Z   compression-level: 6
+2026-10-28T23:38:58.5645508Z   overwrite: false
+2026-10-28T23:38:58.5645689Z   include-hidden-files: false
+2026-10-28T23:38:58.5645890Z ##[endgroup]
+2026-10-28T23:38:58.7044463Z (node:2949) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-28T23:38:58.7045037Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-28T23:38:58.7223091Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-10-28T23:38:58.7224323Z The least common ancestor is /home/runner/work/es-lean-certification/es-lean-certification. This will be the root directory of the artifact
+2026-10-28T23:38:58.7225123Z With the provided path, there will be 120 files uploaded
+2026-10-28T23:38:58.7225620Z Artifact name is valid!
+2026-10-28T23:38:58.7226174Z Root directory input is valid!
+2026-10-28T23:38:59.2620167Z Beginning upload of artifact content to blob storage
+2026-10-28T23:38:59.3555415Z (node:2949) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-28T23:38:59.6563573Z Uploaded bytes 109806
+2026-10-28T23:38:59.7076113Z Finished uploading artifact content to blob storage!
+2026-10-28T23:38:59.7076905Z SHA256 digest of uploaded artifact zip is 199dd16acbcf689f7d5055189f317a6b1d31deb367e4ee441e0638d70a0af105
+2026-10-28T23:38:59.7078110Z Finalizing artifact upload
+2026-10-28T23:39:00.1294100Z Artifact es-lean-receipts.zip successfully finalized. Artifact ID 12861010630
+2026-10-28T23:39:00.1294913Z Artifact es-lean-receipts has been successfully uploaded! Final size is 109806 bytes. Artifact ID is 12861010630
+2026-10-28T23:39:00.1295739Z Artifact download URL: https://github.com/whouxe82/es-lean-certification/actions/runs/40788446292/artifacts/12861010630
+2026-10-28T23:39:00.1511002Z Post job cleanup.
+2026-10-28T23:39:00.2232166Z [command]/usr/bin/git version
+2026-10-28T23:39:00.2269046Z git version 2.56.0
+2026-10-28T23:39:00.2303765Z Temporarily overriding HOME='/home/runner/work/_temp/8090fcd7-ea83-4575-be05-2a11801072e5' before making global git config changes
+2026-10-28T23:39:00.2304594Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-28T23:39:00.2308756Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/es-lean-certification/es-lean-certification
+2026-10-28T23:39:00.2349149Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-28T23:39:00.2383395Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-28T23:39:00.2608403Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-28T23:39:00.2636114Z http.https://github.com/.extraheader
+2026-10-28T23:39:00.2646365Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-28T23:39:00.2681020Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-28T23:39:00.2919407Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-28T23:39:00.2960758Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-28T23:39:00.3333866Z Cleaning up orphan processes
+2026-10-28T23:39:00.3632819Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+
