@@ -1,0 +1,63 @@
+name: ES Lean certification rerun
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - name: Check out the package
+        uses: actions/checkout@v4
+
+      - name: Install Elan and the pinned Lean toolchain
+        run: |
+          curl https://elan.lean-lang.org/elan-init.sh -sSf | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+          "$HOME/.elan/bin/elan" toolchain install leanprover/lean4:v4.19.0
+
+      - name: Report versions (must show Lean 4.19.0)
+        working-directory: lean
+        run: |
+          lean --version
+          lake --version
+
+      - name: Fetch the pinned Mathlib cache
+        working-directory: lean
+        run: lake exe cache get
+
+      - name: Keep GPT's original receipts for comparison
+        run: cp -r logs logs_gpt_original
+
+      - name: Clean rebuild, axiom audit, source audit
+        working-directory: lean
+        run: python3 ../scripts/record_verification.py
+
+      - name: Check the four pass conditions
+        run: |
+          set -e
+          grep -q "Build completed successfully." logs/clean-build.log
+          grep -q "AUDIT_TOTAL|310" logs/axioms-all.log
+          grep -q "AUDIT_SAFE_TOTAL|75" logs/axioms-all.log
+          grep -q "AUDIT_COMPILER_STUB_TOTAL|18" logs/axioms-all.log
+          ! grep -q "^error" logs/axioms-all.log
+          python3 - <<'EOF'
+          import json
+          assert json.load(open("logs/source-audit.json"))["passed"] is True
+          new = json.load(open("logs/verification-receipt.json"))
+          old = json.load(open("logs_gpt_original/verification-receipt.json"))
+          assert new["exit_code"] == 0, "verification exit code was not 0"
+          assert new["compiled_input_sha256"] == old["compiled_input_sha256"], "source hashes differ from GPT's receipt"
+          print("PASS: build, audits and 22 source hashes all match GPT's receipt")
+          EOF
+
+      - name: Upload receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: es-lean-receipts
+          path: |
+            logs/
+            logs_gpt_original/
