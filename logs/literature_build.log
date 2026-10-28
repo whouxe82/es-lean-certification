@@ -1,0 +1,40 @@
+ℹ [2792/2803] Replayed ES.PriorOffsetCore
+info: ././././ES/PriorOffsetCore.lean:328:0: 'ESTheorem.engine_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:329:0: 'ESTheorem.unified_offset_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:330:0: 'ESTheorem.mordell_3mod4' depends on axioms: [propext, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:331:0: 'ESTheorem.family_I' depends on axioms: [propext]
+info: ././././ES/PriorOffsetCore.lean:332:0: 'ESTheorem.isES_of_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:333:0: 'ESTheorem.isES_of_offset_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:334:0: 'ESTheorem.second_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:335:0: 'ESTheorem.constructive_offset' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3177/3177] Built ES.Literature
+warning: ././././ES/Literature.lean:24:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Literature.lean:26:60: unused variable `hd`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+info: ././././ES/Literature.lean:47:0: 'ES.Literature.divisorShellFactorization' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Literature.lean:48:0: 'ES.Literature.divisorShellReconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:49:0: 'ES.Literature.divisorComplementInvolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:50:0: 'ES.Literature.sieve_typeII_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:51:0: 'ES.Literature.terminal_pell_dictionary' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Literature.lean:52:0: 'Pell.eq_pell' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:53:0: 'Pell.yn_succ_succ' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Literature.lean:54:0: 'ES.Literature.existing_dirichlet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:55:0: 'Nat.setOf_prime_and_eq_mod_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:56:0: 'Nat.forall_exists_prime_gt_and_eq_mod' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:62:0: legendreSym.quadratic_reciprocity {p q : ℕ} [Fact (Nat.Prime p)] [Fact (Nat.Prime q)] (hp : p ≠ 2) (hq : q ≠ 2)
+  (hpq : p ≠ q) : legendreSym q ↑p * legendreSym p ↑q = (-1) ^ (p / 2 * (q / 2))
+info: ././././ES/Literature.lean:63:0: legendreSym.quadratic_reciprocity' {p q : ℕ} [Fact (Nat.Prime p)] [Fact (Nat.Prime q)] (hp : p ≠ 2) (hq : q ≠ 2) :
+  legendreSym q ↑p = (-1) ^ (p / 2 * (q / 2)) * legendreSym p ↑q
+info: ././././ES/Literature.lean:64:0: jacobiSym.quadratic_reciprocity {a b : ℕ} (ha : Odd a) (hb : Odd b) :
+  jacobiSym (↑a) b = (-1) ^ (a / 2 * (b / 2)) * jacobiSym (↑b) a
+info: ././././ES/Literature.lean:65:0: jacobiSym.quadratic_reciprocity' {a b : ℕ} (ha : Odd a) (hb : Odd b) : jacobiSym (↑a) b = qrSign b a * jacobiSym (↑b) a
+info: ././././ES/Literature.lean:66:0: jacobiSym.mod_right (a : ℤ) {b : ℕ} (hb : Odd b) : jacobiSym a b = jacobiSym a (b % (4 * a.natAbs))
+info: ././././ES/Literature.lean:67:0: ZMod.nonsquare_of_jacobiSym_eq_neg_one {a : ℤ} {b : ℕ} (h : jacobiSym a b = -1) : ¬IsSquare ↑a
+info: ././././ES/Literature.lean:68:0: 'legendreSym.quadratic_reciprocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:69:0: 'legendreSym.quadratic_reciprocity'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:70:0: 'jacobiSym.quadratic_reciprocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:71:0: 'jacobiSym.quadratic_reciprocity'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:72:0: 'jacobiSym.mod_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:73:0: 'ZMod.nonsquare_of_jacobiSym_eq_neg_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully.

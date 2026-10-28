@@ -1,0 +1,11 @@
+{
+  "offset/lean/ESTheorem.lean": "05b8f718fc5de08a3ac021b476efd7be0f14ca6f643128eb23fadbfe208eb7b8",
+  "offset/lean/lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+  "offset/lean/lake-manifest.json": "719333969429464224fc568758ade245fbcb870f77758c84d92092946ea35609",
+  "foundation/02_ERDOS_STRAUSS_Verification_and_Lean.zip": "87df9acbbaee8a2cb475bb16fa7377e41f837e2201d68b5a44e10758c27257e3",
+  "foundation/extracted_verification/lean/ErdosStraussChecks.lean": "990182c38176f918ea2b2b85d254d7cd80378f8d3a232c175d5cbfb2c517e97d",
+  "foundation/extracted_verification/lean/ErdosStraussChecks/ArctangentGaussianCertificate.lean": "e23d488557ffe58fd58f40aa9b774bf7f1433d40b58eedfc570d75b61072e0c8",
+  "foundation/extracted_verification/lean/ErdosStraussChecks/PositiveConeSplitZeroLift.lean": "15301415aadb9de42323532231942c065a9d44f63b101e87b26c54a360f52a96",
+  "sieve/lean/ErdosStraus/Arithmetic.lean": "ea59fc14111daf116b9ca817537ad109e54116af9064a592bdaa0e36460c0364",
+  "auro/auro-zera-proof.lean": "b84c3d1a3362c769ac6e9e440433a80d1d2e660e667dbb12695d4ebfaa7e6040"
+}

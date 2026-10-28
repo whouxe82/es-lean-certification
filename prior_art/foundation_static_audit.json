@@ -1,0 +1,21 @@
+{
+  "lean_files": 35,
+  "native_decide_files": [
+    "foundation/extracted_verification/current_reader/verification/OneSurplusQuarterBranchCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/OrderSixteenTwoTorsionCarryCharacterCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/OrderSixteenCarrierInversionBladeCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/OrderSixteenSupportCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/OrderSixteenCarrierDihedralFourierCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/SplitZeroC4FullAdderBridgeCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/OrderSixteenCarrierDihedralIrreducibleCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/SplitZeroC4RankSupportCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/MarkedC4ExtensionDetectionCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/PrimeCofactorDegreeOneTriggerCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/OrderSixteenFourSheetCarrierCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/MarkedC4VisibleHiddenBitsCertificate.lean",
+    "foundation/extracted_verification/current_reader/verification/FirstEscapeTargetTranspositionCertificate.lean"
+  ],
+  "explicit_axioms": [],
+  "sorry_tokens": [],
+  "admit_tokens": []
+}

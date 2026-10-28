@@ -1,0 +1,13 @@
+{
+  "lean_files": 4,
+  "native_decide_files": [],
+  "explicit_axioms": [],
+  "sorry_tokens": [],
+  "admit_tokens": [
+    [
+      "offset/lean/ESTheorem.lean",
+      53,
+      "admit"
+    ]
+  ]
+}

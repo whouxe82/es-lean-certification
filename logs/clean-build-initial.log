@@ -1,0 +1,181 @@
+ℹ [6653/6666] Replayed ES.Basic
+info: ././././ES/Basic.lean:58:0: 'ES.isSolution_scale' depends on axioms: [propext]
+info: ././././ES/Basic.lean:59:0: 'ES.isSolution_unitFraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:99:0: 'ES.NormalizedII.isSolution' depends on axioms: [propext]
+info: ././././ES/Basic.lean:100:0: 'ES.erdosStraus_iff_primes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:101:0: 'ES.solvable_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:102:0: 'ES.solvable_three_mod_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:133:0: 'ES.one_mod_four_suffices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:134:0: 'ES.hd_implies_es' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:135:0: 'ES.hn_implies_es' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [6654/6666] Replayed ES.Bridges
+warning: ././././ES/Bridges.lean:110:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Bridges.lean:119:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Bridges.lean:382:39: unused variable `h`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: ././././ES/Bridges.lean:398:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Bridges.lean:442:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Bridges.lean:451:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././ES/Bridges.lean:511:0: 'ESBridge.integerES_iff_rationalES' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:512:0: 'ESBridge.TypeII.source' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Bridges.lean:513:0: 'ESBridge.b1_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:514:0: 'ESBridge.b1_rational_integral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:515:0: 'ESBridge.b1_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:516:0: 'ESBridge.b1_integer_return_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:517:0: 'ESBridge.b4_gate_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:518:0: 'ESBridge.b4_rational_integral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:519:0: 'ESBridge.b4_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:520:0: 'ESBridge.b4_integer_return_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:521:0: 'ESBridge.b4_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:522:0: 'ESBridge.b4_gate_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:523:0: 'ESBridge.bridge_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:524:0: 'ESBridge.b1_single_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:525:0: 'ESBridge.b4_four_iterates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:526:0: 'ESBridge.normalizedII_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:527:0: 'ESBridge.normalizedII_b1_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:528:0: 'ESBridge.base_endpoints_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:529:0: 'ESBridge.b1_other_pivot_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:530:0: 'ESBridge.b1_other_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:531:0: 'ESBridge.source_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:532:0: 'ESBridge.source_first_not_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:533:0: 'ESBridge.b1_first_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [6655/6666] Replayed ES.Matching
+warning: ././././ES/Matching.lean:230:61: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ././././ES/Matching.lean:230:61: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+info: ././././ES/Matching.lean:241:0: 'ES.Matching.not_all_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:242:0: 'ES.Matching.at_least_one_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:243:0: 'ES.Matching.typeI_or_typeII' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:244:0: 'ES.Matching.pivot_divisible' depends on axioms: [propext]
+info: ././././ES/Matching.lean:245:0: 'ES.Matching.cleared_of_bridge_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:246:0: 'ES.Matching.typeI_no_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:247:0: 'ES.Matching.typeI_no_outgoing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:248:0: 'ES.Matching.typeI_no_literal_outgoing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:249:0: 'ES.Matching.not_two_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:250:0: 'ES.Matching.inverse_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Matching.lean:251:0: 'ES.Matching.ordered_preimage_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6656/6666] Replayed ES.Pivot
+info: ././././ES/Pivot.lean:66:0: 'ES.Matching.normalized_other_no_outgoing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Pivot.lean:67:0: 'ES.Matching.normalized_first_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6657/6666] Replayed ES.Normalization
+info: ././././ES/Normalization.lean:107:0: 'ESNormalization.typeII_reduced_equation' depends on axioms: [propext]
+info: ././././ES/Normalization.lean:108:0: 'ESNormalization.normalize_typeII' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Normalization.lean:109:0: 'ESNormalization.normalize_typeII_denominators' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Normalization.lean:110:0: 'ESNormalization.normalize_typeII_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6658/6666] Replayed ES.EdgeClassification
+info: ././././ES/EdgeClassification.lean:121:0: 'ES.Matching.typeII_pivot_min_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/EdgeClassification.lean:122:0: 'ES.Matching.target_typeI_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/EdgeClassification.lean:123:0: 'ES.Matching.edge_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/EdgeClassification.lean:124:0: 'ES.Matching.cleared_iff_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6659/6666] Replayed ES.Families
+info: ././././ES/Families.lean:261:0: 'ES.Families.source_positiveES' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:262:0: 'ES.Families.endpoint_positiveES' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:263:0: 'ES.Families.old_gate_fails' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Families.lean:264:0: 'ES.Families.new_gate_holds' depends on axioms: [propext]
+info: ././././ES/Families.lean:265:0: 'ES.Families.endpoint_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:266:0: 'ES.Families.PositiveES.unitFractions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:267:0: 'ES.Families.residue_class_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:268:0: 'ES.Families.family_prime_inputs_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:269:0: 'ES.Families.certified_family_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:270:0: 'ES.Families.normalizedII' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:271:0: 'ES.Families.B4_endpoint_formula' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Families.lean:272:0: 'ES.Families.refinement_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:273:0: 'ES.Families.six_classes_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:274:0: 'ES.Families.jacobi_44' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:275:0: 'ES.Families.endpoint_nonresidue' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:276:0: 'ES.Families.endpoint_HN_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:277:0: 'ES.Families.nonresidue_family_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Families.lean:278:0: 'ES.Families.example_1033' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6660/6666] Replayed ES.PriorOffsetCore
+info: ././././ES/PriorOffsetCore.lean:328:0: 'ESTheorem.engine_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:329:0: 'ESTheorem.unified_offset_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:330:0: 'ESTheorem.mordell_3mod4' depends on axioms: [propext, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:331:0: 'ESTheorem.family_I' depends on axioms: [propext]
+info: ././././ES/PriorOffsetCore.lean:332:0: 'ESTheorem.isES_of_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:333:0: 'ESTheorem.isES_of_offset_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:334:0: 'ESTheorem.second_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:335:0: 'ESTheorem.constructive_offset' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [6661/6666] Replayed ES.Literature
+warning: ././././ES/Literature.lean:24:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Literature.lean:26:60: unused variable `hd`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+info: ././././ES/Literature.lean:47:0: 'ES.Literature.divisorShellFactorization' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Literature.lean:48:0: 'ES.Literature.divisorShellReconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:49:0: 'ES.Literature.divisorComplementInvolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:50:0: 'ES.Literature.sieve_typeII_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:51:0: 'ES.Literature.terminal_pell_dictionary' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Literature.lean:52:0: 'Pell.eq_pell' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:53:0: 'Pell.yn_succ_succ' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Literature.lean:54:0: 'ES.Literature.existing_dirichlet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:55:0: 'Nat.setOf_prime_and_eq_mod_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:56:0: 'Nat.forall_exists_prime_gt_and_eq_mod' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:62:0: legendreSym.quadratic_reciprocity {p q : ℕ} [Fact (Nat.Prime p)] [Fact (Nat.Prime q)] (hp : p ≠ 2) (hq : q ≠ 2)
+  (hpq : p ≠ q) : legendreSym q ↑p * legendreSym p ↑q = (-1) ^ (p / 2 * (q / 2))
+info: ././././ES/Literature.lean:63:0: legendreSym.quadratic_reciprocity' {p q : ℕ} [Fact (Nat.Prime p)] [Fact (Nat.Prime q)] (hp : p ≠ 2) (hq : q ≠ 2) :
+  legendreSym q ↑p = (-1) ^ (p / 2 * (q / 2)) * legendreSym p ↑q
+info: ././././ES/Literature.lean:64:0: jacobiSym.quadratic_reciprocity {a b : ℕ} (ha : Odd a) (hb : Odd b) :
+  jacobiSym (↑a) b = (-1) ^ (a / 2 * (b / 2)) * jacobiSym (↑b) a
+info: ././././ES/Literature.lean:65:0: jacobiSym.quadratic_reciprocity' {a b : ℕ} (ha : Odd a) (hb : Odd b) : jacobiSym (↑a) b = qrSign b a * jacobiSym (↑b) a
+info: ././././ES/Literature.lean:66:0: jacobiSym.mod_right (a : ℤ) {b : ℕ} (hb : Odd b) : jacobiSym a b = jacobiSym a (b % (4 * a.natAbs))
+info: ././././ES/Literature.lean:67:0: ZMod.nonsquare_of_jacobiSym_eq_neg_one {a : ℤ} {b : ℕ} (h : jacobiSym a b = -1) : ¬IsSquare ↑a
+info: ././././ES/Literature.lean:68:0: 'legendreSym.quadratic_reciprocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:69:0: 'legendreSym.quadratic_reciprocity'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:70:0: 'jacobiSym.quadratic_reciprocity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:71:0: 'jacobiSym.quadratic_reciprocity'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:72:0: 'jacobiSym.mod_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Literature.lean:73:0: 'ZMod.nonsquare_of_jacobiSym_eq_neg_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6662/6666] Built ES.MatchingGraph
+info: ././././ES/MatchingGraph.lean:333:0: 'ES.MatchingGraph.target_eq_of_same_pivot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:334:0: 'ES.MatchingGraph.source_eq_of_same_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:335:0: 'ES.MatchingGraph.degree_at_most_one_of_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:336:0: 'ES.MatchingGraph.degree_at_most_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:337:0: 'ES.MatchingGraph.no_self_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:338:0: 'ES.MatchingGraph.graph_neighbors_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:339:0: 'ES.MatchingGraph.directed_iff_literal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:340:0: 'ES.MatchingGraph.adjacent_iff_literal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:341:0: 'ES.MatchingGraph.no_directed_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/MatchingGraph.lean:342:0: 'ES.MatchingGraph.solutionGraph_neighbors_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6663/6666] Built ES.Forcing
+info: ././././ES/Forcing.lean:336:0: 'ES.Forcing.quotient_preserved_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:337:0: 'ES.Forcing.squares_le_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:338:0: 'ES.Forcing.energy_lt_avoidanceMinimum_forces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:339:0: 'ES.Forcing.minimum_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:340:0: 'ES.Forcing.sum_strict_forces_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:341:0: 'ES.Forcing.cell577_avoidance_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:342:0: 'ES.Forcing.cell577_avoidance_attained' depends on axioms: [propext]
+info: ././././ES/Forcing.lean:343:0: 'ES.Forcing.cell577_energy_forces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:344:0: 'ES.Forcing.counts577_target_forced' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:346:0: 'ES.Forcing.divisors577_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:347:0: 'ES.Forcing.counts577_is_divisorHistogram' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:348:0: 'ES.Forcing.divisor577_target_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:350:0: 'ES.Forcing.fiberCount_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:352:0: 'ES.Forcing.avoidanceMinimum577_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:354:0: 'ES.Forcing.squares39_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Forcing.lean:355:0: 'ES.Forcing.cell577_square_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6664/6666] Built ES.Descent
+info: ././././ES/Descent.lean:391:0: 'ESDescent.norm_large_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:392:0: 'ESDescent.companion_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:393:0: 'ESDescent.norm_t_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:394:0: 'ESDescent.norm_t_one_gcd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:395:0: 'ESDescent.norm_difference_mod_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:396:0: 'ESDescent.norm_delta_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:397:0: 'ESDescent.dyadic_no_rescue' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:398:0: 'ESDescent.norm_shape_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:399:0: 'ESDescent.dyadic_no_rescue_from_d' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:400:0: 'ESDescent.shapePair_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:401:0: 'ESDescent.norm_recurrence_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:402:0: 'ESDescent.shapePair_mod_four' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Descent.lean:403:0: 'ESDescent.shapePair_allowed_iff_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:405:0: 'ESDescent.b4_source_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:406:0: 'ESDescent.b4_dyadic_no_rescue' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:407:0: 'ESDescent.normalizedII_b4_dyadic_no_rescue' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Descent.lean:409:0: 'ESDescent.b4_dyadic_endpoints_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [6665/6666] Built ES
+Build completed successfully.

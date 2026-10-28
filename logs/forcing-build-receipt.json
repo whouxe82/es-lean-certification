@@ -1,0 +1,16 @@
+{
+  "module": "ES.Forcing",
+  "source": "ES/Forcing.lean",
+  "sha256": "822dd2db9acddecf1d4a6f3c13272c283c8aeb5411680c691dbd0fe25b3ddde9",
+  "lean": "4.19.0",
+  "mathlib": "v4.19.0",
+  "command": "source env.sh; lake env lean -o .lake/build/lib/lean/ES/Forcing.olean ES/Forcing.lean > ../logs/forcing-build.log 2>&1",
+  "observed_exit_code": 0,
+  "olean_exists": true,
+  "axiom_log": "logs/forcing-build.log",
+  "observed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

@@ -1,0 +1,31 @@
+ES/Families.lean:186:4: error: type mismatch
+  hh
+has type
+  44 * (12 * ↑(H n)) = 1 : Prop
+but is expected to have type
+  44 * ↑(12 * H n) = 1 : Prop
+ES/Families.lean:248:44: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+ES/Families.lean:249:46: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+ES/Families.lean:248:44: warning: 'norm_num [p]' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+ES/Families.lean:249:46: warning: 'norm_num [p, H]' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+'ES.Families.source_positiveES' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.endpoint_positiveES' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.old_gate_fails' depends on axioms: [propext, Quot.sound]
+'ES.Families.new_gate_holds' depends on axioms: [propext]
+'ES.Families.endpoint_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.PositiveES.unitFractions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.residue_class_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.family_prime_inputs_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.certified_family_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.normalizedII' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.B4_endpoint_formula' depends on axioms: [propext, Quot.sound]
+'ES.Families.refinement_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.six_classes_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.jacobi_44' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Families.endpoint_nonresidue' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ES.Families.endpoint_HN_witness' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ES.Families.example_1033' depends on axioms: [propext, Classical.choice, Quot.sound]

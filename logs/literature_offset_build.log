@@ -1,0 +1,10 @@
+ℹ [2793/2793] Built ES.PriorOffsetCore
+info: ././././ES/PriorOffsetCore.lean:326:0: 'ESTheorem.engine_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:327:0: 'ESTheorem.unified_offset_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:328:0: 'ESTheorem.mordell_3mod4' depends on axioms: [propext, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:329:0: 'ESTheorem.family_I' depends on axioms: [propext]
+info: ././././ES/PriorOffsetCore.lean:330:0: 'ESTheorem.isES_of_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:331:0: 'ESTheorem.isES_of_offset_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:332:0: 'ESTheorem.second_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/PriorOffsetCore.lean:333:0: 'ESTheorem.constructive_offset' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully.

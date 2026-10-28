@@ -1,0 +1,40 @@
+AXIOM_DECL|ES.Forcing|_private.Init.Data.Option.Basic.0.Option.decEqOption.«_@».Init.Data.Option.Basic._hyg.4._at.ES.Forcing.avoidanceProfiles._spec_1|unsafe=true|type=(n :
+    ℕ) →
+  (x x_1 : Option (Fin n)) → (fun x => (fun x x_2 => Decidable (x = x_2)) x x_1) x
+AXIOM_DECL|ES.Forcing|List.filterTR.loop._at.ES.Forcing.avoidanceProfiles._spec_8|unsafe=true|type=(n T : ℕ) →
+  (Fin n → Fin n) →
+    Option (Fin n) →
+      Finset (Fin n) →
+        (x x_1 : List (ES.Forcing.Profile n T)) → (fun x => (fun x x => List (ES.Forcing.Profile n T)) x x_1) x
+AXIOM_DECL|ES.Forcing|List.filterTR.loop._at.ES.Forcing.fiberCount._spec_3|unsafe=true|type=(G : Type u_1) →
+  (D : Type u_2) → DecidableEq G → (D → G) → G → (x x_1 : List D) → (fun x => (fun x x => List D) x x_1) x
+AXIOM_DECL|ES.Forcing|Fintype.piFinset._at.ES.Forcing.avoidanceProfiles._spec_2|unsafe=true|type=(n : ℕ) →
+  (δ : Fin n → Type) → ((a : Fin n) → Finset (δ a)) → Finset ((a : Fin n) → δ a)
+AXIOM_DECL|ES.Forcing|Finset.pi._at.ES.Forcing.avoidanceProfiles._spec_3|unsafe=true|type=(n : ℕ) →
+  (δ : Fin n → Type) → (s : Finset (Fin n)) → ((a : Fin n) → Finset (δ a)) → Finset ((a : Fin n) → a ∈ s → δ a)
+AXIOM_DECL|ES.Forcing|Finset.sum._at.ES.Forcing.energy._spec_1|unsafe=true|type=(n : ℕ) →
+  Finset (Fin n) → (Fin n → ℕ) → ℕ
+AXIOM_DECL|ES.Forcing|Multiset.filter._at.ES.Forcing.units39._spec_2|unsafe=true|type=Multiset ℕ → Multiset ℕ
+AXIOM_DECL|ES.Forcing|List.filterTR.loop._at.ES.Forcing.units39._spec_3|unsafe=true|type=(x x_1 : List ℕ) →
+  (fun x => (fun x x => List ℕ) x x_1) x
+AXIOM_DECL|ES.Forcing|Finset.filter._at.ES.Forcing.units39._spec_1|unsafe=true|type=Finset ℕ → Finset ℕ
+AXIOM_DECL|ES.Forcing|Finset.sum._at.ES.Forcing.mass._spec_1|unsafe=true|type=(n : ℕ) → Finset (Fin n) → (Fin n → ℕ) → ℕ
+AXIOM_DECL|ES.Forcing|Multiset.Pi.cons._at.ES.Forcing.avoidanceProfiles._spec_5|unsafe=true|type=(n : ℕ) →
+  (δ : Fin n → Type) →
+    (m : Multiset (Fin n)) → (a : Fin n) → δ a → ((a : Fin n) → a ∈ m → δ a) → (a' : Fin n) → a' ∈ a ::ₘ m → δ a'
+AXIOM_DECL|ES.Forcing|Finset.filter._at.ES.Forcing.fiberCount._spec_1|unsafe=true|type=(G : Type u_1) →
+  (D : Type u_2) → DecidableEq G → (D → G) → G → Finset D → Finset D
+AXIOM_DECL|ES.Forcing|Finset.filter._at.ES.Forcing.avoidanceProfiles._spec_6|unsafe=true|type=(n T : ℕ) →
+  (Fin n → Fin n) → Option (Fin n) → Finset (Fin n) → Finset (ES.Forcing.Profile n T) → Finset (ES.Forcing.Profile n T)
+AXIOM_DECL|ES.Forcing|Finset.image._at.ES.Forcing.squares39._spec_1|unsafe=true|type=(ℕ → ℕ) → Finset ℕ → Finset ℕ
+AXIOM_DECL|ES.Forcing|Multiset.pi._at.ES.Forcing.avoidanceProfiles._spec_4|unsafe=true|type=(n : ℕ) →
+  (β : Fin n → Type) →
+    (m : Multiset (Fin n)) → ((a : Fin n) → Multiset (β a)) → (fun x => Multiset ((a : Fin n) → a ∈ x → β a)) m
+AXIOM_DECL|ES.Forcing|Finset.image._at.ES.Forcing.avoidanceMinimum._spec_1|unsafe=true|type=(n T : ℕ) →
+  (ES.Forcing.Profile n T → ℕ) → Finset (ES.Forcing.Profile n T) → Finset ℕ
+AXIOM_DECL|ES.Forcing|Multiset.filter._at.ES.Forcing.avoidanceProfiles._spec_7|unsafe=true|type=(n T : ℕ) →
+  (Fin n → Fin n) →
+    Option (Fin n) → Finset (Fin n) → Multiset (ES.Forcing.Profile n T) → Multiset (ES.Forcing.Profile n T)
+AXIOM_DECL|ES.Forcing|Multiset.filter._at.ES.Forcing.fiberCount._spec_2|unsafe=true|type=(G : Type u_1) →
+  (D : Type u_2) → DecidableEq G → (D → G) → G → Multiset D → Multiset D
+REVIEW_TOTAL|theorems=310|other_safe_declarations=75|axiom_stubs=18|all_dependency_closures_whitelisted=true

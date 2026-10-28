@@ -1,0 +1,69 @@
+ES/Bridges.lean:110:73: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ES/Bridges.lean:119:76: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ES/Bridges.lean:130:6: error: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  Integral ((↑k + ↑δ * ↑r * ↑t) * ↑s / ↑t)
+p k δ r s t : ℤ
+h : TypeII p δ r s t
+ht : t ≠ 0
+hd : δ ≠ 0
+h1 : Integral ((↑k + ↑δ * ↑r * ↑t) * ↑s / ↑t) ↔ t ∣ (k + δ * r * t) * s
+h2 : Integral (↑p * (↑k + ↑δ * ↑r * ↑t) * ↑s / ↑δ) ↔ δ ∣ p * (k + δ * r * t) * s
+⊢ Integral (↑(k + δ * r * t) * ↑s / ↑t) ∧ Integral (↑p * ↑(k + δ * r * t) * ↑s / ↑δ) ↔ δ * t ∣ k
+ES/Bridges.lean:157:2: error: ring failed, ring expressions not equal
+p k δ r s t : ℤ
+h : TypeII p δ r s t
+hk : 0 ≤ k
+hp : p = 4 * k + 1
+hpq : 0 < ↑p
+hdq : 0 < ↑δ
+hrq : 0 < ↑r
+hsq : 0 < ↑s
+htq : 0 < ↑t
+hkq : 0 ≤ ↑k
+hX : 0 < ↑(k + δ * r * t)
+he : 4 * ↑δ * ↑r * ↑s * ↑t = ↑p * ↑t + ↑δ + ↑s
+hpp : ↑p = 4 * ↑k + 1
+hb : 4 * (↑k + ↑δ * ↑r * ↑t) * ↑s = ↑δ + ↑p * ↑t + ↑p * ↑s
+⊢ ↑k * ↑δ * ↑r * ↑t * ↑s ^ 2 * ↑p * 8 + (-(↑k * ↑δ * ↑s * ↑p) - ↑k * ↑t * ↑s * ↑p ^ 2) +
+                    (-(↑k * ↑s * 4) - ↑k * ↑s ^ 2 * ↑p ^ 2) +
+                  ↑k ^ 2 * ↑s ^ 2 * ↑p * 4 +
+                ↑δ +
+              (-(↑δ * ↑r * ↑t * ↑s * 4) - ↑δ * ↑r * ↑t * ↑s ^ 2 * ↑p ^ 2) +
+            (-(↑δ * ↑r * ↑t ^ 2 * ↑s * ↑p ^ 2) - ↑δ ^ 2 * ↑r * ↑t * ↑s * ↑p) +
+          ↑δ ^ 2 * ↑r ^ 2 * ↑t ^ 2 * ↑s ^ 2 * ↑p * 4 +
+        ↑t * ↑p +
+      ↑s * ↑p =
+    0
+ES/Bridges.lean:224:2: error: ring failed, ring expressions not equal
+p δ r s t d C : ℤ
+h : TypeII p δ r s t
+hd : 0 < d
+he : d * t = δ + s
+hC : 4 * C = p * d + 1
+hpq : 0 < ↑p
+hdq : 0 < ↑δ
+hsq : 0 < ↑s
+htq : 0 < ↑t
+hCp : 0 < C
+hCq : 0 < ↑C
+heq : ↑d * ↑t = ↑δ + ↑s
+hCeq : 4 * ↑C = ↑p * ↑d + 1
+⊢ ↑t + (-(↑t * ↑C * 4) - ↑t * ↑C * ↑p) + ↑t * ↑C ^ 2 * ↑p * 4 + (-(↑C * ↑p ^ 2 * ↑δ) - ↑C * ↑p ^ 2 * ↑s) + ↑p * ↑δ +
+      ↑p * ↑s =
+    0
+'ESBridge.integerES_iff_rationalES' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.TypeII.source' depends on axioms: [propext, Quot.sound]
+'ESBridge.b1_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b1_rational_integral_iff' depends on axioms: [propext, sorryAx]
+'ESBridge.b1_rational' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ESBridge.b1_integer_return_iff' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ESBridge.b4_gate_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_rational_integral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_rational' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ESBridge.b4_integer_return_iff' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ESBridge.b4_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_gate_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b1_single_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_four_iterates' depends on axioms: [propext, Classical.choice, Quot.sound]

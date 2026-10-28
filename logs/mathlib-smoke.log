@@ -1,0 +1,2 @@
+Nat.setOf_prime_and_eq_mod_infinite {q : ℕ} [NeZero q] {a : ZMod q} (ha : IsUnit a) :
+  {p | Nat.Prime p ∧ ↑p = a}.Infinite

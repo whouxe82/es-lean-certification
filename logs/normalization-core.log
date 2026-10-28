@@ -1,0 +1,2 @@
+'ESNormalization.typeII_reduced_equation' depends on axioms: [propext]
+'ESNormalization.normalize_typeII' depends on axioms: [propext, Classical.choice, Quot.sound]

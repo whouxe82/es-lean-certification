@@ -1,0 +1,31 @@
+ES/Bridges.lean:110:73: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ES/Bridges.lean:119:76: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ES/Bridges.lean:303:2: error: type mismatch
+  hlin
+has type
+  4 * (y + p * k) * x * z = p * (p * x * z + y * z + y * x) : Prop
+but is expected to have type
+  4 * ((y + p * k) * x * z) = (p * x * z + y * z + y * x) * p : Prop
+ES/Bridges.lean:382:39: warning: unused variable `h`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+ES/Bridges.lean:398:20: error: simp made no progress
+'ESBridge.integerES_iff_rationalES' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.TypeII.source' depends on axioms: [propext, Quot.sound]
+'ESBridge.b1_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b1_rational_integral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b1_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b1_integer_return_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_gate_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_rational_integral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_integer_return_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_gate_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.bridge_preserves' depends on axioms: [propext, sorryAx]
+'ESBridge.b1_single_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.b4_four_iterates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.normalizedII_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.normalizedII_b1_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESBridge.base_endpoints_equal' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

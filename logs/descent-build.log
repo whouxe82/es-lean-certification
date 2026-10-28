@@ -1,0 +1,4 @@
+ES/Descent.lean:138:46: warning: unused variable `hm`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+ES/Descent.lean:249:46: warning: unused variable `hm`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

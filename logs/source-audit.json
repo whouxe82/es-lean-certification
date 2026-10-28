@@ -1,0 +1,80 @@
+{
+  "audit_kind": "source_hygiene_not_a_kernel_proof",
+  "files": [
+    {
+      "file": "lean/ES/Basic.lean",
+      "sha256": "4c9474ce1fe422beb0706fae862b6c89f2f83d4ae5f8d60f1679604509014dee",
+      "authored_theorem_or_lemma_commands": 9,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/Bridges.lean",
+      "sha256": "3d89c241f7a6a4d525e9625f06037b90fb9f145d3ef8d625184a193d5cec03fa",
+      "authored_theorem_or_lemma_commands": 34,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/Descent.lean",
+      "sha256": "9307253cb1a6325e8a63423ad128362cef3591780716f1c571f3490e898ae9ee",
+      "authored_theorem_or_lemma_commands": 27,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/EdgeClassification.lean",
+      "sha256": "0578c0dd83dccd575901e3fe559088a79a1e9f49e5055271d6332788d28c47bd",
+      "authored_theorem_or_lemma_commands": 6,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/Families.lean",
+      "sha256": "8b1fd0d5f754f696369b44912d0552ece196adc94c0f5b34bc59d9666ace63ab",
+      "authored_theorem_or_lemma_commands": 26,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/Forcing.lean",
+      "sha256": "822dd2db9acddecf1d4a6f3c13272c283c8aeb5411680c691dbd0fe25b3ddde9",
+      "authored_theorem_or_lemma_commands": 27,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/Literature.lean",
+      "sha256": "a8888bdf3d259aabe920824e486d53bb38a303897cb26a799cf22a508131f1ee",
+      "authored_theorem_or_lemma_commands": 6,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/Matching.lean",
+      "sha256": "106041b29b2528ebe5bb37aa0668321dad61d7332e67f89b6d2f141fd9c8f1fb",
+      "authored_theorem_or_lemma_commands": 13,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/MatchingGraph.lean",
+      "sha256": "d48b898178312549c7866994aa314619712a3f92caf41ba5d705a180a88d28f4",
+      "authored_theorem_or_lemma_commands": 24,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/Normalization.lean",
+      "sha256": "3b1ae380f5e8c7e91df2ee51f640cf6268ebea8fcf04622fc003f33cd52c08ea",
+      "authored_theorem_or_lemma_commands": 4,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/Pivot.lean",
+      "sha256": "0372f2a9152574a1726f7ff7843a2147362c92033f6e0fec428a80d32df3bf63",
+      "authored_theorem_or_lemma_commands": 5,
+      "forbidden_tokens": []
+    },
+    {
+      "file": "lean/ES/PriorOffsetCore.lean",
+      "sha256": "2953bffc694cb1caa44352a908bcae4da2c0a41138e332c33655fca94bbd5ce7",
+      "authored_theorem_or_lemma_commands": 10,
+      "forbidden_tokens": []
+    }
+  ],
+  "authored_theorem_or_lemma_commands_total": 191,
+  "violations": [],
+  "passed": true
+}

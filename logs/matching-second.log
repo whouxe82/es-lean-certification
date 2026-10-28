@@ -1,0 +1,6 @@
+'ES.Matching.not_all_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Matching.at_least_one_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Matching.typeI_or_typeII' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Matching.pivot_divisible' depends on axioms: [propext]
+'ES.Matching.cleared_of_bridge_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.Matching.typeI_no_forward' depends on axioms: [propext, Classical.choice, Quot.sound]

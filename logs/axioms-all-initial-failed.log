@@ -1,0 +1,50 @@
+AUDIT_MODULE|ES.Basic
+AUDIT_MODULE|ES.Bridges
+AUDIT_MODULE|ES.Descent
+AUDIT_MODULE|ES.Matching
+AUDIT_MODULE|ES.Pivot
+AUDIT_MODULE|ES.Normalization
+AUDIT_MODULE|ES.EdgeClassification
+AUDIT_MODULE|ES.Families
+AUDIT_MODULE|ES.Forcing
+AUDIT_MODULE|ES.PriorOffsetCore
+AUDIT_MODULE|ES.Literature
+AUDIT_MODULE|ES.MatchingGraph
+AUDIT_MODULE|ES
+AUDIT|ES.Descent|ESDescent.dyadic_no_rescue|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.EdgeClassification|ES.Matching.cleared_iff_bridge|[propext, Classical.choice, Quot.sound]
+AUDIT|ES.Basic|ES.IsSolution.eq_1|[]
+AUDIT|ES.MatchingGraph|ES.MatchingGraph.Adjacent.eq_1|[Quot.sound]
+AUDIT|ES.PriorOffsetCore|ESTheorem.mordell_3mod4|[propext, Quot.sound]
+AUDIT|ES.Basic|ES.isSolution_scale|[propext]
+AUDIT|ES.Families|ES.Families.jacobi_44._proof_1|[propext, Quot.sound]
+AUDIT|ES.Matching|ES.Matching.ordered_preimage_unique|[propext, Classical.choice, Quot.sound]
+AUDIT|ES.Forcing|ES.Forcing.counts577_energy|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Bridges|ESBridge.b1_rational|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Descent|ESDescent.dyadic_odd_eq_one|[propext, Quot.sound]
+AUDIT|ES.Forcing|ES.Forcing.preservesCosets_iff_squares_le|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Forcing|ES.Forcing.counts577_fixed_even|[propext]
+AUDIT|ES.Basic|ES.one_mod_four_suffices|[propext, Classical.choice, Quot.sound]
+AUDIT|ES.Bridges|ESBridge.b4_four_iterates|[propext, Classical.choice, Quot.sound]
+AUDIT|ES.Descent|ESDescent.norm_difference_mod_four_aux._proof_3|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Descent|ESDescent.b4_dyadic_no_rescue|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Families|ES.Families.source_positiveES|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Families|ES.Families.certified_family_infinite|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Forcing|ES.Forcing.quotient_preserved_iff|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Matching|ES.Matching.pivot_divisible|[propext]
+AUDIT|ES.Forcing|ES.Forcing.squares39_exact|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Matching|ES.Matching.typeI_no_forward._proof_2|[propext, Quot.sound]
+AUDIT|ES.Forcing|ES.Forcing.counts577_mass|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.MatchingGraph|ES.Matching.IsTypeI.eq_1|[]
+AUDIT|ES.Descent|ESDescent.norm_recurrence_complete_aux._proof_4|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Descent|ESDescent.norm_t_one_aux._proof_1|[propext, Quot.sound]
+AUDIT|ES.Families|ES.Families.normalized_source_state._proof_1|[propext, Quot.sound]
+AUDIT|ES.Forcing|ES.Forcing.avoidanceProfiles.eq_1|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Forcing|ES.Forcing.energy_lt_avoidanceMinimum_forces._proof_4|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Bridges|ESBridge.b1_other_pivot_impossible._proof_1|[propext, Quot.sound]
+AUDIT|ES.Forcing|ES.Forcing.energy_lt_avoidanceMinimum_forces|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Bridges|ESBridge.b1_rational_integral_iff|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Families|ES.Families.source_isSolution|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Matching|ES.Matching.not_all_divisible|[propext, Quot.sound, Classical.choice]
+AUDIT|ES.Families|ES.Families.residue_class_infinite|[propext, Quot.sound, Classical.choice]
+Audit.lean:5:0: error: project declares an axiom: _private.Init.Data.Option.Basic.0.Option.decEqOption.«_@».Init.Data.Option.Basic._hyg.4._at.ES.Forcing.avoidanceProfiles._spec_1

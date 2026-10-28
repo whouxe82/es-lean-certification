@@ -1,0 +1,6 @@
+ES/Normalization.lean:30:22: error: unknown constant 'Nat.mul_pos_iff.mp'
+ES/Normalization.lean:31:22: error: unknown constant 'Nat.mul_pos_iff.mp'
+ES/Normalization.lean:51:22: error: unknown constant 'Nat.mul_pos_iff.mp'
+ES/Normalization.lean:66:22: error: unknown constant 'Nat.mul_pos_iff.mp'
+'ESNormalization.typeII_reduced_equation' depends on axioms: [propext]
+'ESNormalization.normalize_typeII' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

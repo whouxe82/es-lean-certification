@@ -1,0 +1,18 @@
+ES/MatchingGraph.lean:60:46: error: unsolved goals
+case calc.step
+a b c d : ℕ
+h : {d} + {b} = {c} + {d}
+had : a = d
+⊢ {d} + {c} = {d} + {c}
+ES/MatchingGraph.lean:279:10: error: type mismatch
+  adjacent_symm
+has type
+  Adjacent ?m.6704 ?m.6705 ?m.6706 ?m.6707 → Adjacent ?m.6704 ?m.6705 ?m.6707 ?m.6706 : Prop
+but is expected to have type
+  Symmetric (Adjacent p k) : Prop
+'ES.MatchingGraph.target_eq_of_same_pivot' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ES.MatchingGraph.source_eq_of_same_first' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ES.MatchingGraph.degree_at_most_one_of_properties' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ES.MatchingGraph.degree_at_most_one' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ES.MatchingGraph.no_self_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ES.MatchingGraph.graph_neighbors_unique' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

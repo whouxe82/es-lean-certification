@@ -1,0 +1,52 @@
+ℹ [6653/6655] Replayed ES.Basic
+info: ././././ES/Basic.lean:58:0: 'ES.isSolution_scale' depends on axioms: [propext]
+info: ././././ES/Basic.lean:59:0: 'ES.isSolution_unitFraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:99:0: 'ES.NormalizedII.isSolution' depends on axioms: [propext]
+info: ././././ES/Basic.lean:100:0: 'ES.erdosStraus_iff_primes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:101:0: 'ES.solvable_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:102:0: 'ES.solvable_three_mod_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:133:0: 'ES.one_mod_four_suffices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:134:0: 'ES.hd_implies_es' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Basic.lean:135:0: 'ES.hn_implies_es' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [6654/6655] Replayed ES.Bridges
+warning: ././././ES/Bridges.lean:110:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Bridges.lean:119:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Bridges.lean:382:39: unused variable `h`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: ././././ES/Bridges.lean:398:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Bridges.lean:442:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././ES/Bridges.lean:451:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././ES/Bridges.lean:511:0: 'ESBridge.integerES_iff_rationalES' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:512:0: 'ESBridge.TypeII.source' depends on axioms: [propext, Quot.sound]
+info: ././././ES/Bridges.lean:513:0: 'ESBridge.b1_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:514:0: 'ESBridge.b1_rational_integral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:515:0: 'ESBridge.b1_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:516:0: 'ESBridge.b1_integer_return_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:517:0: 'ESBridge.b4_gate_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:518:0: 'ESBridge.b4_rational_integral_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:519:0: 'ESBridge.b4_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:520:0: 'ESBridge.b4_integer_return_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:521:0: 'ESBridge.b4_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:522:0: 'ESBridge.b4_gate_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:523:0: 'ESBridge.bridge_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:524:0: 'ESBridge.b1_single_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:525:0: 'ESBridge.b4_four_iterates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:526:0: 'ESBridge.normalizedII_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:527:0: 'ESBridge.normalizedII_b1_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:528:0: 'ESBridge.base_endpoints_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:529:0: 'ESBridge.b1_other_pivot_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:530:0: 'ESBridge.b1_other_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:531:0: 'ESBridge.source_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:532:0: 'ESBridge.source_first_not_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Bridges.lean:533:0: 'ESBridge.b1_first_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6655/6655] Built ES.Normalization
+info: ././././ES/Normalization.lean:107:0: 'ESNormalization.typeII_reduced_equation' depends on axioms: [propext]
+info: ././././ES/Normalization.lean:108:0: 'ESNormalization.normalize_typeII' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Normalization.lean:109:0: 'ESNormalization.normalize_typeII_denominators' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././ES/Normalization.lean:110:0: 'ESNormalization.normalize_typeII_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully.

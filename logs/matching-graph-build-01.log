@@ -1,0 +1,101 @@
+ES/MatchingGraph.lean:60:46: error: unsolved goals
+case calc.step
+a b c d : ℕ
+h : {d} + {b} = {c} + {d}
+had : a = d
+⊢ {d} + {c} = {d} + {c}
+ES/MatchingGraph.lean:72:44: error: tactic 'rfl' failed, equality lhs
+  {y} + ({x} + {z})
+is not definitionally equal to rhs
+  {x} + ({y} + {z})
+x y z a b c : ℕ
+h : triple x y z = triple a b c
+hy : y = b
+⊢ {y} + ({x} + {z}) = {x} + ({y} + {z})
+ES/MatchingGraph.lean:74:42: error: tactic 'rfl' failed, equality lhs
+  {a} + ({b} + {c})
+is not definitionally equal to rhs
+  {b} + ({a} + {c})
+x y z a b c : ℕ
+h : triple x y z = triple a b c
+hy : y = b
+⊢ {a} + ({b} + {c}) = {b} + ({a} + {c})
+ES/MatchingGraph.lean:105:57: error: unsolved goals
+case pos
+p x y z : ℕ
+hx : p ∣ x
+hy : ¬p ∣ y
+hz : p ∣ z
+⊢ ¬Multiset.filter (fun a => p ∣ a) {z} = 0
+
+case neg
+p x y z : ℕ
+hx : p ∣ x
+hy : ¬p ∣ y
+hz : ¬p ∣ z
+⊢ Multiset.filter (fun a => p ∣ a) {z} = 0
+
+case pos
+p x y z : ℕ
+hx : ¬p ∣ x
+hy : p ∣ y
+hz : p ∣ z
+⊢ ¬Multiset.filter (fun a => p ∣ a) {z} = 0
+
+case neg
+p x y z : ℕ
+hx : ¬p ∣ x
+hy : p ∣ y
+hz : ¬p ∣ z
+⊢ Multiset.filter (fun a => p ∣ a) {z} = 0
+
+case pos
+p x y z : ℕ
+hx : ¬p ∣ x
+hy : ¬p ∣ y
+hz : p ∣ z
+⊢ (Multiset.filter (fun a => p ∣ a) {z}).card = 1
+
+case neg
+p x y z : ℕ
+hx : ¬p ∣ x
+hy : ¬p ∣ y
+hz : ¬p ∣ z
+⊢ ¬(Multiset.filter (fun a => p ∣ a) {z}).card = 1
+ES/MatchingGraph.lean:153:4: error: tactic 'rfl' failed, equality lhs
+  {f.X} + ({f.Z} + {f.Y})
+is not definitionally equal to rhs
+  {f.X} + ({f.Y} + {f.Z})
+case inr.intro
+p k : ℕ
+hp : 0 < p
+e f : Step p k
+hs : e.src = f.src
+hy : e.y = f.y
+hX : e.X = f.X
+hpair : {e.x} + {e.z} = {f.x} + {f.z}
+hx : e.x = f.z
+hz : e.z = f.x
+hY : e.Y = f.Z
+hZ : e.Z = f.Y
+⊢ {f.X} + ({f.Z} + {f.Y}) = {f.X} + ({f.Y} + {f.Z})
+ES/MatchingGraph.lean:197:4: error: tactic 'rfl' failed, equality lhs
+  {f.z} + ({f.y} + {f.x})
+is not definitionally equal to rhs
+  {f.x} + ({f.y} + {f.z})
+case inr.intro
+p k : ℕ
+e f : Step p k
+ht : e.dst = f.dst
+hX : e.X = f.X
+hy : e.y = f.y
+hpos : 0 < e.y + p * k
+hpair : {e.Y} + {e.Z} = {f.Y} + {f.Z}
+hY : e.Y = f.Z
+hZ : e.Z = f.Y
+hx : e.x = f.z
+hz : e.z = f.x
+⊢ {f.z} + ({f.y} + {f.x}) = {f.x} + ({f.y} + {f.z})
+'ES.MatchingGraph.target_eq_of_same_pivot' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ES.MatchingGraph.source_eq_of_same_first' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'ES.MatchingGraph.degree_at_most_one_of_properties' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

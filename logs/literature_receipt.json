@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "module_build_exit_codes": {
+    "ES.PriorOffsetCore": 0,
+    "ES.Literature": 0
+  },
+  "local_environment": {
+    "lean": "4.19.0",
+    "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+  },
+  "upstream_original_toolchains_replayed": false,
+  "foundation_three_source_hashes_match_author_receipt": {
+    "lean/ErdosStraussChecks.lean": true,
+    "lean/ErdosStraussChecks/ArctangentGaussianCertificate.lean": true,
+    "lean/ErdosStraussChecks/PositiveConeSplitZeroLift.lean": true
+  },
+  "printed_axiom_reports": {
+    "ESTheorem.engine_lemma": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ESTheorem.unified_offset_theorem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ESTheorem.mordell_3mod4": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ESTheorem.family_I": [
+      "propext"
+    ],
+    "ESTheorem.isES_of_polynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ESTheorem.isES_of_offset_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ESTheorem.second_divisibility": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ESTheorem.constructive_offset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ES.Literature.divisorShellFactorization": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ES.Literature.divisorShellReconstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ES.Literature.divisorComplementInvolution": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ES.Literature.sieve_typeII_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ES.Literature.terminal_pell_dictionary": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Pell.eq_pell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Pell.yn_succ_succ": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ES.Literature.existing_dirichlet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Nat.setOf_prime_and_eq_mod_infinite": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Nat.forall_exists_prime_gt_and_eq_mod": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "legendreSym.quadratic_reciprocity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "legendreSym.quadratic_reciprocity'": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "jacobiSym.quadratic_reciprocity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "jacobiSym.quadratic_reciprocity'": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "jacobiSym.mod_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ZMod.nonsquare_of_jacobiSym_eq_neg_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "sha256": {
+    "lean/ES/PriorOffsetCore.lean": "2953bffc694cb1caa44352a908bcae4da2c0a41138e332c33655fca94bbd5ce7",
+    "lean/ES/Literature.lean": "a8888bdf3d259aabe920824e486d53bb38a303897cb26a799cf22a508131f1ee",
+    "logs/literature_offset_build.log": "9c43d863534b4c1c72b93cf01042039a3691012f724398d659a7531facbe14cc",
+    "logs/literature_build.log": "28965b1671d0e6990cf655b45f75d9c7bf93f892e13d9d2e7606ccfc4086ef56"
+  },
+  "audit_note": "Includes six installed reciprocity/Jacobi theorem statements and axiom reports. Does not certify a general B1 character application."
+}

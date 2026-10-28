@@ -1,0 +1,29 @@
+{
+  "lean_files": 2,
+  "native_decide_files": [],
+  "explicit_axioms": [
+    [
+      "auro/auro-zera-proof.lean",
+      754,
+      "axiom good_divisor_exists"
+    ]
+  ],
+  "sorry_tokens": [
+    [
+      "auro/GoldbachZera.lean",
+      222,
+      "sorry"
+    ],
+    [
+      "auro/GoldbachZera.lean",
+      10472,
+      "sorry"
+    ],
+    [
+      "auro/auro-zera-proof.lean",
+      40,
+      "sorry"
+    ]
+  ],
+  "admit_tokens": []
+}

@@ -1,0 +1,23 @@
+ES/Descent.lean:55:36: error: failed to prove positivity/nonnegativity/nonzeroness
+ES/Descent.lean:102:4: error: ring failed, ring expressions not equal
+m t a b : ℤ
+hm : 0 < m
+ht : 0 < t
+ha : 0 < a
+hab : a ≤ b
+hat : a ≤ t
+hnorm : (a + b) ^ 2 = t ^ 2 * (4 * m * a * b + 1)
+hlarge : a * t ^ 2 < b
+hsq : 0 ≤ t ^ 2 - a ^ 2
+hsmall : t ^ 2 - a ^ 2 < b
+hzero : t ^ 2 - a ^ 2 = 0
+hat' : a = t
+u v : ℤ
+huv : u * t + v * b = 1
+q : ℤ
+hq : t + b = t * q
+⊢ 2 + v * t * 2 + (-(v * t * q * 2) - t * u * 2) = 0
+ES/Descent.lean:137:46: warning: unused variable `hm`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+ES/Descent.lean:248:46: warning: unused variable `hm`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

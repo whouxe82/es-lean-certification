@@ -1,0 +1,17 @@
+ES/Descent.lean:138:46: warning: unused variable `hm`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+ES/Descent.lean:274:46: warning: unused variable `hm`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+'ESDescent.norm_large_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.companion_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.norm_t_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.norm_t_one_gcd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.norm_difference_mod_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.norm_delta_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.dyadic_no_rescue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.norm_shape_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.dyadic_no_rescue_from_d' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.shapePair_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.norm_recurrence_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ESDescent.shapePair_mod_four' depends on axioms: [propext, Quot.sound]
+'ESDescent.shapePair_allowed_iff_even' depends on axioms: [propext, Classical.choice, Quot.sound]
