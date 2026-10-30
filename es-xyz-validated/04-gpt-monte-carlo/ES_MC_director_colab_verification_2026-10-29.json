@@ -1,0 +1,103 @@
+{
+  "completed_draws": 1224,
+  "completed_primes": 34,
+  "experiment": "ES-MC-1.0.0",
+  "independent_record_checks": {
+    "all_record_force_comparisons": "PASS",
+    "all_record_masses_and_energies_recomputed": "PASS",
+    "all_record_witness_integer_identities": "PASS",
+    "forcing_cell_occurrences": 75,
+    "unique_witness_cells": 137,
+    "witness_occurrences": 168
+  },
+  "interpretation": "User-controlled execution of the same sealed Python source, matching the GPT reference byte for byte. This is external execution reproduction, not an independently developed implementation or a proof of universal Q(p) or ESC.",
+  "mathematical_core_sha256": "c44dcdfeafd92093955c4d01c91c4db333095015ae1a64f375e56963661a584b",
+  "reference_file_comparison": {
+    "draws.jsonl": "BYTE_IDENTICAL",
+    "mathematical_core.json": "BYTE_IDENTICAL",
+    "selection.json": "BYTE_IDENTICAL",
+    "summary.json": "BYTE_IDENTICAL"
+  },
+  "schema": "ES-MC-user-reproduction-verification-1.0",
+  "self_test": {
+    "abstract_dp_cases": 2050,
+    "abstract_finite_cases": 1005,
+    "central_removal_cases": 6,
+    "fixture_eligible_cells": 10,
+    "fixture_forcing_witnesses": 5,
+    "fixture_inputs": 5,
+    "status": "PASS"
+  },
+  "source_sha256": "b73095229d64ccefb4c61b138ba5af1e20f5a363bc3e2c0286383fa162ed4144",
+  "status": "VERIFIED_EXACT_COMPLETE_REPRODUCTION",
+  "unique_p_x": 1191,
+  "user_archive": {
+    "bytes": 417579,
+    "filename": "ES_MC_results 10292026  1947.zip",
+    "sha256": "69004f83cc9817e069542ebe9c70faefe5fc2f240e4bd53feffe5d631f75584d",
+    "zip_crc_check": "PASS"
+  },
+  "user_runtime_receipt": {
+    "cpu_seconds": 30.250246046999997,
+    "finished_utc_host_clock": "2026-10-29T23:46:58.961185+00:00",
+    "limits": {
+      "cpu_hard_limit_installed": true,
+      "wall_hard_limit_installed": true
+    },
+    "mathematical_core_sha256": "c44dcdfeafd92093955c4d01c91c4db333095015ae1a64f375e56963661a584b",
+    "note": "Runtime metadata and ZIP bytes are not cross-machine comparison targets.",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+    "schema": "ES-MC-runtime-1.0.0",
+    "started_utc_host_clock": "2026-10-29T23:46:27.670329+00:00",
+    "status": "COMPLETE",
+    "stop_reason": null,
+    "wall_seconds": 31.29085351399999
+  },
+  "validation_arm_summaries": [
+    {
+      "any_force_draws": 0,
+      "arm": "uniform",
+      "direct_witness_draws": 1,
+      "draws": 192,
+      "finite_force_draws": 0,
+      "phase": "validation",
+      "primes_with_any_force": 0,
+      "primes_with_direct_witness": 1,
+      "primes_with_finite_force": 0,
+      "unique_p_x": 192
+    },
+    {
+      "any_force_draws": 1,
+      "arm": "divisor_rich",
+      "direct_witness_draws": 3,
+      "draws": 192,
+      "finite_force_draws": 1,
+      "phase": "validation",
+      "primes_with_any_force": 1,
+      "primes_with_direct_witness": 3,
+      "primes_with_finite_force": 1,
+      "unique_p_x": 192
+    },
+    {
+      "any_force_draws": 24,
+      "arm": "small_d",
+      "direct_witness_draws": 45,
+      "draws": 192,
+      "finite_force_draws": 24,
+      "phase": "validation",
+      "primes_with_any_force": 13,
+      "primes_with_direct_witness": 16,
+      "primes_with_finite_force": 13,
+      "unique_p_x": 179
+    }
+  ],
+  "verified_archive_file_hashes": {
+    "draws.jsonl": "1bf1f45f2d947c06200574474d05cc0b6b605958d43714ed56c108457383e0ec",
+    "mathematical_core.json": "c44dcdfeafd92093955c4d01c91c4db333095015ae1a64f375e56963661a584b",
+    "runtime_receipt.json": "73686d4e0ead0cda82197b4d430bfd9fba5b8355499d06a8addcb932cb01df17",
+    "selection.json": "7037ed368329738ed37bd5f63c16b89e6fd084bef854bd1e28a933ece506d23f",
+    "summary.json": "7be48258bc1dcee1f20dd1199e5cf4f8eba36368d301022c6ef9de75845dac2b"
+  },
+  "verified_utc_host_clock": "2026-10-29T23:49:09.054588+00:00"
+}

@@ -1,0 +1,2857 @@
+{
+ "N": 300000,
+ "primes": 3202,
+ "Q_failures": [
+  {
+   "p": 66361,
+   "mod840": 1,
+   "in_R": true,
+   "firing_cells": [
+    {
+     "d": 31,
+     "x": 16598,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 31,
+     "x": 16598,
+     "ch": "II",
+     "T": 18,
+     "E": 28,
+     "M": 26,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 43,
+     "x": 16601,
+     "ch": "I",
+     "T": 3,
+     "E": 3,
+     "M": 3,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 43,
+     "x": 16601,
+     "ch": "II",
+     "T": 6,
+     "E": 8,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 47,
+     "x": 16602,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 47,
+     "x": 16602,
+     "ch": "II",
+     "T": 18,
+     "E": 24,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 71,
+     "x": 16608,
+     "ch": "I",
+     "T": 33,
+     "E": 49,
+     "M": 33,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 71,
+     "x": 16608,
+     "ch": "II",
+     "T": 66,
+     "E": 140,
+     "M": 130,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 95,
+     "x": 16614,
+     "ch": "I",
+     "T": 23,
+     "E": 37,
+     "M": 37,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 95,
+     "x": 16614,
+     "ch": "II",
+     "T": 46,
+     "E": 132,
+     "M": 128,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 119,
+     "x": 16620,
+     "ch": "I",
+     "T": 20,
+     "E": 28,
+     "M": 20,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 119,
+     "x": 16620,
+     "ch": "II",
+     "T": 40,
+     "E": 74,
+     "M": 74,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 155,
+     "x": 16629,
+     "ch": "I",
+     "T": 5,
+     "E": 5,
+     "M": 5,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 155,
+     "x": 16629,
+     "ch": "II",
+     "T": 10,
+     "E": 16,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 263,
+     "x": 16656,
+     "ch": "I",
+     "T": 27,
+     "E": 27,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 263,
+     "x": 16656,
+     "ch": "II",
+     "T": 54,
+     "E": 62,
+     "M": 54,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 279,
+     "x": 16660,
+     "ch": "I",
+     "T": 40,
+     "E": 60,
+     "M": 40,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 279,
+     "x": 16660,
+     "ch": "II",
+     "T": 70,
+     "E": 186,
+     "M": 122,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 359,
+     "x": 16680,
+     "ch": "I",
+     "T": 63,
+     "E": 79,
+     "M": 63,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 359,
+     "x": 16680,
+     "ch": "II",
+     "T": 126,
+     "E": 162,
+     "M": 126,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 519,
+     "x": 16720,
+     "ch": "I",
+     "T": 40,
+     "E": 44,
+     "M": 40,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 519,
+     "x": 16720,
+     "ch": "II",
+     "T": 80,
+     "E": 116,
+     "M": 80,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 559,
+     "x": 16730,
+     "ch": "I",
+     "T": 13,
+     "E": 13,
+     "M": 13,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 559,
+     "x": 16730,
+     "ch": "II",
+     "T": 28,
+     "E": 28,
+     "M": 28,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 935,
+     "x": 16824,
+     "ch": "I",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 935,
+     "x": 16824,
+     "ch": "II",
+     "T": 6,
+     "E": 8,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 959,
+     "x": 16830,
+     "ch": "I",
+     "T": 72,
+     "E": 76,
+     "M": 72,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 959,
+     "x": 16830,
+     "ch": "II",
+     "T": 126,
+     "E": 144,
+     "M": 126,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1063,
+     "x": 16856,
+     "ch": "I",
+     "T": 35,
+     "E": 35,
+     "M": 35,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1063,
+     "x": 16856,
+     "ch": "II",
+     "T": 70,
+     "E": 74,
+     "M": 70,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1151,
+     "x": 16878,
+     "ch": "I",
+     "T": 27,
+     "E": 27,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1151,
+     "x": 16878,
+     "ch": "II",
+     "T": 54,
+     "E": 54,
+     "M": 54,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1415,
+     "x": 16944,
+     "ch": "I",
+     "T": 13,
+     "E": 13,
+     "M": 13,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1415,
+     "x": 16944,
+     "ch": "II",
+     "T": 28,
+     "E": 34,
+     "M": 28,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1927,
+     "x": 17072,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1927,
+     "x": 17072,
+     "ch": "II",
+     "T": 36,
+     "E": 36,
+     "M": 36,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1959,
+     "x": 17080,
+     "ch": "I",
+     "T": 30,
+     "E": 38,
+     "M": 30,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1959,
+     "x": 17080,
+     "ch": "II",
+     "T": 60,
+     "E": 76,
+     "M": 60,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2147,
+     "x": 17127,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2147,
+     "x": 17127,
+     "ch": "II",
+     "T": 18,
+     "E": 18,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 8439,
+     "x": 18700,
+     "ch": "I",
+     "T": 14,
+     "E": 14,
+     "M": 14,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 8439,
+     "x": 18700,
+     "ch": "II",
+     "T": 32,
+     "E": 32,
+     "M": 32,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 9519,
+     "x": 18970,
+     "ch": "I",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 9519,
+     "x": 18970,
+     "ch": "II",
+     "T": 12,
+     "E": 12,
+     "M": 12,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 9759,
+     "x": 19030,
+     "ch": "I",
+     "T": 14,
+     "E": 14,
+     "M": 14,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 9759,
+     "x": 19030,
+     "ch": "II",
+     "T": 26,
+     "E": 26,
+     "M": 26,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 17839,
+     "x": 21050,
+     "ch": "I",
+     "T": 15,
+     "E": 15,
+     "M": 15,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 17839,
+     "x": 21050,
+     "ch": "II",
+     "T": 30,
+     "E": 30,
+     "M": 30,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 60559,
+     "x": 31730,
+     "ch": "I",
+     "T": 18,
+     "E": 18,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 60559,
+     "x": 31730,
+     "ch": "II",
+     "T": 18,
+     "E": 18,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 85879,
+     "x": 38060,
+     "ch": "I",
+     "T": 24,
+     "E": 24,
+     "M": 24,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 85879,
+     "x": 38060,
+     "ch": "II",
+     "T": 42,
+     "E": 42,
+     "M": 42,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 103983,
+     "x": 42586,
+     "ch": "I",
+     "T": 4,
+     "E": 4,
+     "M": 4,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 103983,
+     "x": 42586,
+     "ch": "II",
+     "T": 2,
+     "E": 2,
+     "M": 2,
+     "mech": "finite",
+     "forces": false
+    }
+   ]
+  },
+  {
+   "p": 155521,
+   "mod840": 121,
+   "in_R": true,
+   "firing_cells": [
+    {
+     "d": 47,
+     "x": 38892,
+     "ch": "I",
+     "T": 45,
+     "E": 101,
+     "M": 99,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 47,
+     "x": 38892,
+     "ch": "II",
+     "T": 90,
+     "E": 390,
+     "M": 370,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 51,
+     "x": 38893,
+     "ch": "I",
+     "T": 6,
+     "E": 10,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 51,
+     "x": 38893,
+     "ch": "II",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 59,
+     "x": 38895,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 59,
+     "x": 38895,
+     "ch": "II",
+     "T": 18,
+     "E": 24,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 71,
+     "x": 38898,
+     "ch": "I",
+     "T": 15,
+     "E": 15,
+     "M": 15,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 71,
+     "x": 38898,
+     "ch": "II",
+     "T": 30,
+     "E": 32,
+     "M": 30,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 103,
+     "x": 38906,
+     "ch": "I",
+     "T": 15,
+     "E": 15,
+     "M": 15,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 103,
+     "x": 38906,
+     "ch": "II",
+     "T": 30,
+     "E": 36,
+     "M": 30,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 107,
+     "x": 38907,
+     "ch": "I",
+     "T": 21,
+     "E": 21,
+     "M": 21,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 107,
+     "x": 38907,
+     "ch": "II",
+     "T": 42,
+     "E": 44,
+     "M": 42,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 119,
+     "x": 38910,
+     "ch": "I",
+     "T": 12,
+     "E": 12,
+     "M": 12,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 119,
+     "x": 38910,
+     "ch": "II",
+     "T": 24,
+     "E": 40,
+     "M": 26,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 139,
+     "x": 38915,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 139,
+     "x": 38915,
+     "ch": "II",
+     "T": 18,
+     "E": 36,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 143,
+     "x": 38916,
+     "ch": "I",
+     "T": 30,
+     "E": 34,
+     "M": 34,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 143,
+     "x": 38916,
+     "ch": "II",
+     "T": 60,
+     "E": 128,
+     "M": 126,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 151,
+     "x": 38918,
+     "ch": "I",
+     "T": 27,
+     "E": 27,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 151,
+     "x": 38918,
+     "ch": "II",
+     "T": 54,
+     "E": 60,
+     "M": 54,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 159,
+     "x": 38920,
+     "ch": "I",
+     "T": 30,
+     "E": 46,
+     "M": 42,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 159,
+     "x": 38920,
+     "ch": "II",
+     "T": 60,
+     "E": 164,
+     "M": 150,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 187,
+     "x": 38927,
+     "ch": "I",
+     "T": 6,
+     "E": 10,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 187,
+     "x": 38927,
+     "ch": "II",
+     "T": 6,
+     "E": 10,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 191,
+     "x": 38928,
+     "ch": "I",
+     "T": 27,
+     "E": 39,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 191,
+     "x": 38928,
+     "ch": "II",
+     "T": 54,
+     "E": 88,
+     "M": 54,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 215,
+     "x": 38934,
+     "ch": "I",
+     "T": 31,
+     "E": 35,
+     "M": 31,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 215,
+     "x": 38934,
+     "ch": "II",
+     "T": 64,
+     "E": 120,
+     "M": 110,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 239,
+     "x": 38940,
+     "ch": "I",
+     "T": 135,
+     "E": 243,
+     "M": 171,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 239,
+     "x": 38940,
+     "ch": "II",
+     "T": 270,
+     "E": 704,
+     "M": 642,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 415,
+     "x": 38984,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 415,
+     "x": 38984,
+     "ch": "II",
+     "T": 24,
+     "E": 24,
+     "M": 24,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 479,
+     "x": 39000,
+     "ch": "I",
+     "T": 147,
+     "E": 195,
+     "M": 147,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 479,
+     "x": 39000,
+     "ch": "II",
+     "T": 294,
+     "E": 432,
+     "M": 406,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 607,
+     "x": 39032,
+     "ch": "I",
+     "T": 63,
+     "E": 75,
+     "M": 63,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 607,
+     "x": 39032,
+     "ch": "II",
+     "T": 126,
+     "E": 150,
+     "M": 126,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 659,
+     "x": 39045,
+     "ch": "I",
+     "T": 27,
+     "E": 27,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 659,
+     "x": 39045,
+     "ch": "II",
+     "T": 54,
+     "E": 54,
+     "M": 54,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 755,
+     "x": 39069,
+     "ch": "I",
+     "T": 3,
+     "E": 3,
+     "M": 3,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 755,
+     "x": 39069,
+     "ch": "II",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 815,
+     "x": 39084,
+     "ch": "I",
+     "T": 7,
+     "E": 7,
+     "M": 7,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 815,
+     "x": 39084,
+     "ch": "II",
+     "T": 16,
+     "E": 22,
+     "M": 16,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 935,
+     "x": 39114,
+     "ch": "I",
+     "T": 10,
+     "E": 10,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 935,
+     "x": 39114,
+     "ch": "II",
+     "T": 20,
+     "E": 26,
+     "M": 20,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1103,
+     "x": 39156,
+     "ch": "I",
+     "T": 45,
+     "E": 45,
+     "M": 45,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1103,
+     "x": 39156,
+     "ch": "II",
+     "T": 90,
+     "E": 90,
+     "M": 90,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1119,
+     "x": 39160,
+     "ch": "I",
+     "T": 32,
+     "E": 32,
+     "M": 32,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1119,
+     "x": 39160,
+     "ch": "II",
+     "T": 62,
+     "E": 88,
+     "M": 62,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1307,
+     "x": 39207,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1307,
+     "x": 39207,
+     "ch": "II",
+     "T": 18,
+     "E": 24,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1359,
+     "x": 39220,
+     "ch": "I",
+     "T": 24,
+     "E": 32,
+     "M": 24,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1359,
+     "x": 39220,
+     "ch": "II",
+     "T": 42,
+     "E": 58,
+     "M": 42,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1419,
+     "x": 39235,
+     "ch": "I",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1419,
+     "x": 39235,
+     "ch": "II",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1511,
+     "x": 39258,
+     "ch": "I",
+     "T": 21,
+     "E": 21,
+     "M": 21,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1511,
+     "x": 39258,
+     "ch": "II",
+     "T": 42,
+     "E": 42,
+     "M": 42,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1559,
+     "x": 39270,
+     "ch": "I",
+     "T": 243,
+     "E": 243,
+     "M": 243,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1559,
+     "x": 39270,
+     "ch": "II",
+     "T": 486,
+     "E": 606,
+     "M": 486,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1895,
+     "x": 39354,
+     "ch": "I",
+     "T": 13,
+     "E": 13,
+     "M": 13,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1895,
+     "x": 39354,
+     "ch": "II",
+     "T": 28,
+     "E": 30,
+     "M": 28,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2195,
+     "x": 39429,
+     "ch": "I",
+     "T": 7,
+     "E": 7,
+     "M": 7,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2195,
+     "x": 39429,
+     "ch": "II",
+     "T": 16,
+     "E": 18,
+     "M": 16,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2327,
+     "x": 39462,
+     "ch": "I",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2327,
+     "x": 39462,
+     "ch": "II",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2495,
+     "x": 39504,
+     "ch": "I",
+     "T": 13,
+     "E": 13,
+     "M": 13,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2495,
+     "x": 39504,
+     "ch": "II",
+     "T": 28,
+     "E": 28,
+     "M": 28,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2639,
+     "x": 39540,
+     "ch": "I",
+     "T": 10,
+     "E": 10,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2639,
+     "x": 39540,
+     "ch": "II",
+     "T": 20,
+     "E": 22,
+     "M": 20,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 3311,
+     "x": 39708,
+     "ch": "I",
+     "T": 4,
+     "E": 4,
+     "M": 4,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 3311,
+     "x": 39708,
+     "ch": "II",
+     "T": 8,
+     "E": 10,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 3531,
+     "x": 39763,
+     "ch": "I",
+     "T": 2,
+     "E": 2,
+     "M": 2,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 3531,
+     "x": 39763,
+     "ch": "II",
+     "T": 2,
+     "E": 2,
+     "M": 2,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 4247,
+     "x": 39942,
+     "ch": "I",
+     "T": 18,
+     "E": 18,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 4247,
+     "x": 39942,
+     "ch": "II",
+     "T": 36,
+     "E": 36,
+     "M": 36,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 9611,
+     "x": 41283,
+     "ch": "I",
+     "T": 12,
+     "E": 12,
+     "M": 12,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 9611,
+     "x": 41283,
+     "ch": "II",
+     "T": 18,
+     "E": 26,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 24615,
+     "x": 45034,
+     "ch": "I",
+     "T": 10,
+     "E": 10,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 24615,
+     "x": 45034,
+     "ch": "II",
+     "T": 10,
+     "E": 10,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 52719,
+     "x": 52060,
+     "ch": "I",
+     "T": 24,
+     "E": 24,
+     "M": 24,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 52719,
+     "x": 52060,
+     "ch": "II",
+     "T": 42,
+     "E": 42,
+     "M": 42,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 134175,
+     "x": 72424,
+     "ch": "I",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 134175,
+     "x": 72424,
+     "ch": "II",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 139599,
+     "x": 73780,
+     "ch": "I",
+     "T": 72,
+     "E": 72,
+     "M": 72,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 139599,
+     "x": 73780,
+     "ch": "II",
+     "T": 126,
+     "E": 126,
+     "M": 126,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 299079,
+     "x": 113650,
+     "ch": "I",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 299079,
+     "x": 113650,
+     "ch": "II",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    }
+   ]
+  },
+  {
+   "p": 176089,
+   "mod840": 529,
+   "in_R": true,
+   "firing_cells": [
+    {
+     "d": 59,
+     "x": 44037,
+     "ch": "I",
+     "T": 21,
+     "E": 29,
+     "M": 21,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 59,
+     "x": 44037,
+     "ch": "II",
+     "T": 42,
+     "E": 104,
+     "M": 70,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 67,
+     "x": 44039,
+     "ch": "I",
+     "T": 3,
+     "E": 3,
+     "M": 3,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 67,
+     "x": 44039,
+     "ch": "II",
+     "T": 6,
+     "E": 12,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 79,
+     "x": 44042,
+     "ch": "I",
+     "T": 15,
+     "E": 15,
+     "M": 15,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 79,
+     "x": 44042,
+     "ch": "II",
+     "T": 30,
+     "E": 30,
+     "M": 30,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 83,
+     "x": 44043,
+     "ch": "I",
+     "T": 9,
+     "E": 19,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 83,
+     "x": 44043,
+     "ch": "II",
+     "T": 18,
+     "E": 38,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 111,
+     "x": 44050,
+     "ch": "I",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 111,
+     "x": 44050,
+     "ch": "II",
+     "T": 14,
+     "E": 16,
+     "M": 14,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 167,
+     "x": 44064,
+     "ch": "I",
+     "T": 99,
+     "E": 143,
+     "M": 135,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 167,
+     "x": 44064,
+     "ch": "II",
+     "T": 198,
+     "E": 536,
+     "M": 498,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 191,
+     "x": 44070,
+     "ch": "I",
+     "T": 81,
+     "E": 97,
+     "M": 81,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 191,
+     "x": 44070,
+     "ch": "II",
+     "T": 162,
+     "E": 328,
+     "M": 298,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 239,
+     "x": 44082,
+     "ch": "I",
+     "T": 45,
+     "E": 61,
+     "M": 45,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 239,
+     "x": 44082,
+     "ch": "II",
+     "T": 90,
+     "E": 220,
+     "M": 90,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 255,
+     "x": 44086,
+     "ch": "I",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 255,
+     "x": 44086,
+     "ch": "II",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 263,
+     "x": 44088,
+     "ch": "I",
+     "T": 63,
+     "E": 97,
+     "M": 63,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 263,
+     "x": 44088,
+     "ch": "II",
+     "T": 126,
+     "E": 364,
+     "M": 126,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 295,
+     "x": 44096,
+     "ch": "I",
+     "T": 19,
+     "E": 19,
+     "M": 19,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 295,
+     "x": 44096,
+     "ch": "II",
+     "T": 40,
+     "E": 66,
+     "M": 40,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 327,
+     "x": 44104,
+     "ch": "I",
+     "T": 10,
+     "E": 10,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 327,
+     "x": 44104,
+     "ch": "II",
+     "T": 20,
+     "E": 20,
+     "M": 20,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 359,
+     "x": 44112,
+     "ch": "I",
+     "T": 27,
+     "E": 27,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 359,
+     "x": 44112,
+     "ch": "II",
+     "T": 54,
+     "E": 54,
+     "M": 54,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 491,
+     "x": 44145,
+     "ch": "I",
+     "T": 27,
+     "E": 27,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 491,
+     "x": 44145,
+     "ch": "II",
+     "T": 54,
+     "E": 84,
+     "M": 54,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 535,
+     "x": 44156,
+     "ch": "I",
+     "T": 21,
+     "E": 21,
+     "M": 21,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 535,
+     "x": 44156,
+     "ch": "II",
+     "T": 48,
+     "E": 62,
+     "M": 48,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 743,
+     "x": 44208,
+     "ch": "I",
+     "T": 45,
+     "E": 45,
+     "M": 45,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 743,
+     "x": 44208,
+     "ch": "II",
+     "T": 90,
+     "E": 90,
+     "M": 90,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 911,
+     "x": 44250,
+     "ch": "I",
+     "T": 63,
+     "E": 63,
+     "M": 63,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 911,
+     "x": 44250,
+     "ch": "II",
+     "T": 126,
+     "E": 126,
+     "M": 126,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 935,
+     "x": 44256,
+     "ch": "I",
+     "T": 12,
+     "E": 12,
+     "M": 12,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 935,
+     "x": 44256,
+     "ch": "II",
+     "T": 10,
+     "E": 10,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1055,
+     "x": 44286,
+     "ch": "I",
+     "T": 25,
+     "E": 25,
+     "M": 25,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1055,
+     "x": 44286,
+     "ch": "II",
+     "T": 50,
+     "E": 50,
+     "M": 50,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1151,
+     "x": 44310,
+     "ch": "I",
+     "T": 81,
+     "E": 81,
+     "M": 81,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1151,
+     "x": 44310,
+     "ch": "II",
+     "T": 162,
+     "E": 198,
+     "M": 162,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1283,
+     "x": 44343,
+     "ch": "I",
+     "T": 15,
+     "E": 15,
+     "M": 15,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1283,
+     "x": 44343,
+     "ch": "II",
+     "T": 30,
+     "E": 30,
+     "M": 30,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1391,
+     "x": 44370,
+     "ch": "I",
+     "T": 75,
+     "E": 75,
+     "M": 75,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1391,
+     "x": 44370,
+     "ch": "II",
+     "T": 150,
+     "E": 174,
+     "M": 150,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1695,
+     "x": 44446,
+     "ch": "I",
+     "T": 2,
+     "E": 2,
+     "M": 2,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1695,
+     "x": 44446,
+     "ch": "II",
+     "T": 4,
+     "E": 4,
+     "M": 4,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1727,
+     "x": 44454,
+     "ch": "I",
+     "T": 18,
+     "E": 18,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1727,
+     "x": 44454,
+     "ch": "II",
+     "T": 18,
+     "E": 26,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1879,
+     "x": 44492,
+     "ch": "I",
+     "T": 25,
+     "E": 25,
+     "M": 25,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1879,
+     "x": 44492,
+     "ch": "II",
+     "T": 50,
+     "E": 50,
+     "M": 50,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2215,
+     "x": 44576,
+     "ch": "I",
+     "T": 17,
+     "E": 17,
+     "M": 17,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2215,
+     "x": 44576,
+     "ch": "II",
+     "T": 34,
+     "E": 34,
+     "M": 34,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2231,
+     "x": 44580,
+     "ch": "I",
+     "T": 30,
+     "E": 30,
+     "M": 30,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2231,
+     "x": 44580,
+     "ch": "II",
+     "T": 30,
+     "E": 36,
+     "M": 30,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 3231,
+     "x": 44830,
+     "ch": "I",
+     "T": 4,
+     "E": 4,
+     "M": 4,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 3231,
+     "x": 44830,
+     "ch": "II",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 4295,
+     "x": 45096,
+     "ch": "I",
+     "T": 11,
+     "E": 11,
+     "M": 11,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 4295,
+     "x": 45096,
+     "ch": "II",
+     "T": 22,
+     "E": 22,
+     "M": 22,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 5711,
+     "x": 45450,
+     "ch": "I",
+     "T": 75,
+     "E": 75,
+     "M": 75,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 5711,
+     "x": 45450,
+     "ch": "II",
+     "T": 150,
+     "E": 150,
+     "M": 150,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 6215,
+     "x": 45576,
+     "ch": "I",
+     "T": 16,
+     "E": 16,
+     "M": 16,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 6215,
+     "x": 45576,
+     "ch": "II",
+     "T": 18,
+     "E": 18,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 7079,
+     "x": 45792,
+     "ch": "I",
+     "T": 77,
+     "E": 77,
+     "M": 77,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 7079,
+     "x": 45792,
+     "ch": "II",
+     "T": 154,
+     "E": 154,
+     "M": 154,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 7511,
+     "x": 45900,
+     "ch": "I",
+     "T": 42,
+     "E": 42,
+     "M": 42,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 7511,
+     "x": 45900,
+     "ch": "II",
+     "T": 84,
+     "E": 84,
+     "M": 84,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 25991,
+     "x": 50520,
+     "ch": "I",
+     "T": 14,
+     "E": 14,
+     "M": 14,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 25991,
+     "x": 50520,
+     "ch": "II",
+     "T": 28,
+     "E": 28,
+     "M": 28,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 51791,
+     "x": 56970,
+     "ch": "I",
+     "T": 31,
+     "E": 31,
+     "M": 31,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 51791,
+     "x": 56970,
+     "ch": "II",
+     "T": 64,
+     "E": 64,
+     "M": 64,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 53159,
+     "x": 57312,
+     "ch": "I",
+     "T": 10,
+     "E": 10,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 53159,
+     "x": 57312,
+     "ch": "II",
+     "T": 24,
+     "E": 24,
+     "M": 24,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 156911,
+     "x": 83250,
+     "ch": "I",
+     "T": 53,
+     "E": 53,
+     "M": 53,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 156911,
+     "x": 83250,
+     "ch": "II",
+     "T": 106,
+     "E": 106,
+     "M": 106,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 279671,
+     "x": 113940,
+     "ch": "I",
+     "T": 50,
+     "E": 50,
+     "M": 50,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 279671,
+     "x": 113940,
+     "ch": "II",
+     "T": 100,
+     "E": 100,
+     "M": 100,
+     "mech": "finite",
+     "forces": false
+    }
+   ]
+  },
+  {
+   "p": 196561,
+   "mod840": 1,
+   "in_R": true,
+   "firing_cells": [
+    {
+     "d": 59,
+     "x": 49155,
+     "ch": "I",
+     "T": 27,
+     "E": 39,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 59,
+     "x": 49155,
+     "ch": "II",
+     "T": 54,
+     "E": 120,
+     "M": 106,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 103,
+     "x": 49166,
+     "ch": "I",
+     "T": 27,
+     "E": 39,
+     "M": 27,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 103,
+     "x": 49166,
+     "ch": "II",
+     "T": 54,
+     "E": 84,
+     "M": 62,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 143,
+     "x": 49176,
+     "ch": "I",
+     "T": 15,
+     "E": 21,
+     "M": 15,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 143,
+     "x": 49176,
+     "ch": "II",
+     "T": 40,
+     "E": 76,
+     "M": 62,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 239,
+     "x": 49200,
+     "ch": "I",
+     "T": 135,
+     "E": 225,
+     "M": 171,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 239,
+     "x": 49200,
+     "ch": "II",
+     "T": 270,
+     "E": 832,
+     "M": 642,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 259,
+     "x": 49205,
+     "ch": "I",
+     "T": 4,
+     "E": 4,
+     "M": 4,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 259,
+     "x": 49205,
+     "ch": "II",
+     "T": 8,
+     "E": 10,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 279,
+     "x": 49210,
+     "ch": "I",
+     "T": 36,
+     "E": 42,
+     "M": 36,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 279,
+     "x": 49210,
+     "ch": "II",
+     "T": 72,
+     "E": 132,
+     "M": 128,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 335,
+     "x": 49224,
+     "ch": "I",
+     "T": 31,
+     "E": 43,
+     "M": 31,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 335,
+     "x": 49224,
+     "ch": "II",
+     "T": 64,
+     "E": 140,
+     "M": 64,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 391,
+     "x": 49238,
+     "ch": "I",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 391,
+     "x": 49238,
+     "ch": "II",
+     "T": 6,
+     "E": 8,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 503,
+     "x": 49266,
+     "ch": "I",
+     "T": 135,
+     "E": 135,
+     "M": 135,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 503,
+     "x": 49266,
+     "ch": "II",
+     "T": 270,
+     "E": 420,
+     "M": 310,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 587,
+     "x": 49287,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 587,
+     "x": 49287,
+     "ch": "II",
+     "T": 18,
+     "E": 36,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 671,
+     "x": 49308,
+     "ch": "I",
+     "T": 21,
+     "E": 21,
+     "M": 21,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 671,
+     "x": 49308,
+     "ch": "II",
+     "T": 48,
+     "E": 66,
+     "M": 48,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 759,
+     "x": 49330,
+     "ch": "I",
+     "T": 2,
+     "E": 2,
+     "M": 2,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 759,
+     "x": 49330,
+     "ch": "II",
+     "T": 4,
+     "E": 6,
+     "M": 4,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 831,
+     "x": 49348,
+     "ch": "I",
+     "T": 10,
+     "E": 10,
+     "M": 10,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 831,
+     "x": 49348,
+     "ch": "II",
+     "T": 20,
+     "E": 20,
+     "M": 20,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 843,
+     "x": 49351,
+     "ch": "I",
+     "T": 2,
+     "E": 2,
+     "M": 2,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 843,
+     "x": 49351,
+     "ch": "II",
+     "T": 2,
+     "E": 2,
+     "M": 2,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 911,
+     "x": 49368,
+     "ch": "I",
+     "T": 147,
+     "E": 163,
+     "M": 147,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 911,
+     "x": 49368,
+     "ch": "II",
+     "T": 168,
+     "E": 184,
+     "M": 168,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1199,
+     "x": 49440,
+     "ch": "I",
+     "T": 45,
+     "E": 57,
+     "M": 45,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1199,
+     "x": 49440,
+     "ch": "II",
+     "T": 108,
+     "E": 140,
+     "M": 108,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1343,
+     "x": 49476,
+     "ch": "I",
+     "T": 60,
+     "E": 60,
+     "M": 60,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1343,
+     "x": 49476,
+     "ch": "II",
+     "T": 120,
+     "E": 162,
+     "M": 120,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1375,
+     "x": 49484,
+     "ch": "I",
+     "T": 9,
+     "E": 9,
+     "M": 9,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1375,
+     "x": 49484,
+     "ch": "II",
+     "T": 18,
+     "E": 20,
+     "M": 18,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1439,
+     "x": 49500,
+     "ch": "I",
+     "T": 175,
+     "E": 175,
+     "M": 175,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1439,
+     "x": 49500,
+     "ch": "II",
+     "T": 350,
+     "E": 366,
+     "M": 350,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1455,
+     "x": 49504,
+     "ch": "I",
+     "T": 24,
+     "E": 40,
+     "M": 24,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1455,
+     "x": 49504,
+     "ch": "II",
+     "T": 40,
+     "E": 64,
+     "M": 40,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1551,
+     "x": 49528,
+     "ch": "I",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 1551,
+     "x": 49528,
+     "ch": "II",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2087,
+     "x": 49662,
+     "ch": "I",
+     "T": 45,
+     "E": 45,
+     "M": 45,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2087,
+     "x": 49662,
+     "ch": "II",
+     "T": 90,
+     "E": 90,
+     "M": 90,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2543,
+     "x": 49776,
+     "ch": "I",
+     "T": 81,
+     "E": 81,
+     "M": 81,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2543,
+     "x": 49776,
+     "ch": "II",
+     "T": 162,
+     "E": 162,
+     "M": 162,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2951,
+     "x": 49878,
+     "ch": "I",
+     "T": 25,
+     "E": 25,
+     "M": 25,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 2951,
+     "x": 49878,
+     "ch": "II",
+     "T": 50,
+     "E": 52,
+     "M": 50,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 3479,
+     "x": 50010,
+     "ch": "I",
+     "T": 12,
+     "E": 12,
+     "M": 12,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 3479,
+     "x": 50010,
+     "ch": "II",
+     "T": 24,
+     "E": 24,
+     "M": 24,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 4867,
+     "x": 50357,
+     "ch": "I",
+     "T": 2,
+     "E": 2,
+     "M": 2,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 4867,
+     "x": 50357,
+     "ch": "II",
+     "T": 4,
+     "E": 4,
+     "M": 4,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 9231,
+     "x": 51448,
+     "ch": "I",
+     "T": 8,
+     "E": 8,
+     "M": 8,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 9231,
+     "x": 51448,
+     "ch": "II",
+     "T": 6,
+     "E": 6,
+     "M": 6,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 15191,
+     "x": 52938,
+     "ch": "I",
+     "T": 25,
+     "E": 25,
+     "M": 25,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 15191,
+     "x": 52938,
+     "ch": "II",
+     "T": 50,
+     "E": 50,
+     "M": 50,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 16311,
+     "x": 53218,
+     "ch": "I",
+     "T": 26,
+     "E": 26,
+     "M": 26,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 16311,
+     "x": 53218,
+     "ch": "II",
+     "T": 14,
+     "E": 14,
+     "M": 14,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 52839,
+     "x": 62350,
+     "ch": "I",
+     "T": 12,
+     "E": 12,
+     "M": 12,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 52839,
+     "x": 62350,
+     "ch": "II",
+     "T": 24,
+     "E": 24,
+     "M": 24,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 62143,
+     "x": 64676,
+     "ch": "I",
+     "T": 45,
+     "E": 45,
+     "M": 45,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 62143,
+     "x": 64676,
+     "ch": "II",
+     "T": 90,
+     "E": 90,
+     "M": 90,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 126223,
+     "x": 80696,
+     "ch": "I",
+     "T": 63,
+     "E": 63,
+     "M": 63,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 126223,
+     "x": 80696,
+     "ch": "II",
+     "T": 126,
+     "E": 126,
+     "M": 126,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 342839,
+     "x": 134850,
+     "ch": "I",
+     "T": 16,
+     "E": 16,
+     "M": 16,
+     "mech": "finite",
+     "forces": false
+    },
+    {
+     "d": 342839,
+     "x": 134850,
+     "ch": "II",
+     "T": 28,
+     "E": 28,
+     "M": 28,
+     "mech": "finite",
+     "forces": false
+    }
+   ]
+  }
+ ],
+ "Q_extended_failures": [],
+ "first_is_residue": 2185,
+ "elapsed_s": 11.5
+}

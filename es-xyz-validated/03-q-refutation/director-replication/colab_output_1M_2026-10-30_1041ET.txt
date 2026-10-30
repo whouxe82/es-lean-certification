@@ -1,0 +1,43 @@
+9,732 primes ≡ 1 (mod 24) up to 1,000,000; 1,494 of them in R (six classes, p+1 free of primes ≡ 3 mod 4); sieve ready at 1 s
+Q FAILS at p = 66,361 (p mod 840 = 1, in R = True); eligible cells at firing x: 54, all with E >= M
+  ... 1,000 primes done, p = 83,689, Q-failures so far 1, 3 s
+Q FAILS at p = 155,521 (p mod 840 = 121, in R = True); eligible cells at firing x: 86, all with E >= M
+Q FAILS at p = 176,089 (p mod 840 = 529, in R = True); eligible cells at firing x: 76, all with E >= M
+  ... 2,000 primes done, p = 179,041, Q-failures so far 3, 18 s
+Q FAILS at p = 196,561 (p mod 840 = 1, in R = True); eligible cells at firing x: 66, all with E >= M
+  ... 3,000 primes done, p = 279,577, Q-failures so far 4, 28 s
+Q FAILS at p = 309,241 (p mod 840 = 121, in R = True); eligible cells at firing x: 99, all with E >= M
+Q FAILS at p = 322,921 (p mod 840 = 361, in R = True); eligible cells at firing x: 58, all with E >= M
+  ... 4,000 primes done, p = 381,673, Q-failures so far 6, 51 s
+Q FAILS at p = 386,401 (p mod 840 = 1, in R = True); eligible cells at firing x: 68, all with E >= M
+Q FAILS at p = 393,121 (p mod 840 = 1, in R = True); eligible cells at firing x: 62, all with E >= M
+Q FAILS at p = 411,049 (p mod 840 = 289, in R = True); eligible cells at firing x: 72, all with E >= M
+  ... 5,000 primes done, p = 485,113, Q-failures so far 9, 121 s
+Q FAILS at p = 537,769 (p mod 840 = 169, in R = True); eligible cells at firing x: 100, all with E >= M
+Q FAILS at p = 545,449 (p mod 840 = 289, in R = True); eligible cells at firing x: 110, all with E >= M
+  ... 6,000 primes done, p = 592,369, Q-failures so far 11, 175 s
+Q FAILS at p = 629,281 (p mod 840 = 121, in R = True); eligible cells at firing x: 110, all with E >= M
+Q FAILS at p = 670,849 (p mod 840 = 529, in R = True); eligible cells at firing x: 124, all with E >= M
+Q FAILS at p = 685,609 (p mod 840 = 169, in R = True); eligible cells at firing x: 130, all with E >= M
+  ... 7,000 primes done, p = 700,537, Q-failures so far 14, 285 s
+Q FAILS at p = 762,721 (p mod 840 = 1, in R = True); eligible cells at firing x: 106, all with E >= M
+Q FAILS at p = 765,241 (p mod 840 = 1, in R = True); eligible cells at firing x: 90, all with E >= M
+Q FAILS at p = 789,721 (p mod 840 = 121, in R = True); eligible cells at firing x: 125, all with E >= M
+  ... 8,000 primes done, p = 809,929, Q-failures so far 17, 408 s
+Q FAILS at p = 810,049 (p mod 840 = 289, in R = True); eligible cells at firing x: 112, all with E >= M
+Q FAILS at p = 852,889 (p mod 840 = 289, in R = True); eligible cells at firing x: 118, all with E >= M
+Q FAILS at p = 869,521 (p mod 840 = 121, in R = True); eligible cells at firing x: 118, all with E >= M
+  ... 9,000 primes done, p = 920,281, Q-failures so far 20, 554 s
+Q FAILS at p = 936,769 (p mod 840 = 169, in R = True); eligible cells at firing x: 124, all with E >= M
+Q FAILS at p = 944,329 (p mod 840 = 169, in R = True); eligible cells at firing x: 89, all with E >= M
+Q-EXTENDED FAILS at p = 944,329
+Q FAILS at p = 946,969 (p mod 840 = 289, in R = True); eligible cells at firing x: 100, all with E >= M
+Q FAILS at p = 950,161 (p mod 840 = 121, in R = True); eligible cells at firing x: 161, all with E >= M
+Q FAILS at p = 991,201 (p mod 840 = 1, in R = True); eligible cells at firing x: 106, all with E >= M
+
+9732 primes p ≡ 1 (mod 24) up to 1,000,000 tested exhaustively in 876.7 s
+Conjecture Q (ES-QP-TEST v1.0 admissibility, non-residue x): 25 failures: [66361, 155521, 176089, 196561, 309241, 322921, 386401, 393121, 411049, 537769, 545449, 629281, 670849, 685609, 762721, 765241, 789721, 810049, 852889, 869521, 936769, 944329, 946969, 950161, 991201]
+Q-failures as a share of R-primes: 25/1494 = 1.67%;  failures by band (×10⁵): Counter({9: 5, 3: 4, 1: 3, 6: 3, 7: 3, 8: 3, 5: 2, 0: 1, 4: 1})
+Q-extended (any x in (p/4, 3p/4)): 1 failures: [944329]
+Primes whose first forcing x is a quadratic residue (excluded by the spec): 6840 of 9732
+Distribution of the first Q witness shift d_Q (spec admissibility): [(7, 4900), (11, 2187), (15, 1405), (19, 342), (23, 472), (31, 156), (39, 97), (43, 6), (47, 39), (51, 5), (55, 1), (59, 8)] ... max 7915
