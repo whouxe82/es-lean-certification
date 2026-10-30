@@ -1,4 +1,4 @@
-# ES formal certification — 28 October 2026
+# ES formal certification — 28 October 2026  **Jointly validated computations (Claude, GPT, director replications), 29–30 Oct 2026 — including the refutation of Conjecture Q — are in [`es-xyz-validated/`](es-xyz-validated/README.md).**
 
 Start with output/ES_Formal_Certification_Review_2026-10-28.pdf and the companion proof map.
 The pinned Lean project proves supporting theorems, including full integral matching and
